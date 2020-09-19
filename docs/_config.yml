@@ -36,8 +36,8 @@ plugins:
 
 header_pages:
   - index.markdown
-  - academicCV.md
   - research.md
+  - academicCV.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
