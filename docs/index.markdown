@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "About"
+layout: default
+title: "Home"
 permalink: //
 ---
 
@@ -13,9 +13,14 @@ permalink: //
 
 **Education:**
 
-Ph.D./A.M. Economics, Harvard, 2013-2017
+Ph.D./A.M. Economics, Harvard University
+<!-- , 2013-2017 -->
 
-A.B. Applied Mathematics, Harvard, 2007-2011
+A.B. Applied Mathematics, Harvard University
+<!-- , 2007-2011 -->
+
+&nbsp;
+
 
 [Curriculum Vitae](GordonLiaoCV.pdf)  &nbsp;
 [Google Scholar](https://scholar.google.com/citations?user=CjHJb7cAAAAJ&hl=en) &nbsp;
