@@ -35,7 +35,7 @@ Papers completed during my 4 years of Ph.D. and 2 years as an economist at the F
 
     **Journal of Financial Economics** (2020)
 
-    Data: [corporate basis and residualized credit spread by currency](http://bit.ly/CreditCIPData)
+    Data: [Corporate Basis and Residualized Credit Spreads](http://bit.ly/CreditCIPData)
 
     [slides](https://www.bis.org/events/bissymposium0517/symposium0517_12_pres.pdf) (from May 2017 BIS symposium on CIP)
 
@@ -43,9 +43,6 @@ Papers completed during my 4 years of Ph.D. and 2 years as an economist at the F
 5. **[Asset Price Dynamics in Partially Segmented Markets](https://academic.oup.com/rfs/article-abstract/31/9/3307/4985215)**, joint with [Robin Greenwood](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446) and [Sam Hanson](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=333598)
 
     **Review of Financial Studies**, Volume 31, Issue 9, 1 September 2018, Pages 3307–3343
-
-    [Internet Appendix](http://www.people.hbs.edu/shanson/smc_IA_20170910.pdf)
-
 
 6. **[Rethinking Operational Risk Capital Requirements](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)**,  joint with Peter Sands and [Yueran Ma](https://voices.uchicago.edu/yueranma/)
 
@@ -56,4 +53,4 @@ Papers completed during my 4 years of Ph.D. and 2 years as an economist at the F
 Older paper (predoctoral)
 
 {:start="7"}
-7. **[Average Marginal Income Tax Rates in New Zealand, 1907-2009](https://scholar.harvard.edu/gliao/publications/average-marginal-income-tax-rates-new-zealand-1907-2009)** joint with [Debasis Bandyopadhyay](https://www.business.auckland.ac.nz/people/dban008), [Robert J. Barro](https://scholar.harvard.edu/barro/home), Jeremy Couchman, [Norman Gemmell](https://www.wgtn.ac.nz/sacl/about/staff/norman-gemmell), and Fiona McAlister
+7. **[Average Marginal Income Tax Rates in New Zealand, 1907-2009](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205)** joint with [Debasis Bandyopadhyay](https://www.business.auckland.ac.nz/people/dban008), [Robert J. Barro](https://scholar.harvard.edu/barro/home), Jeremy Couchman, [Norman Gemmell](https://www.wgtn.ac.nz/sacl/about/staff/norman-gemmell), and Fiona McAlister
