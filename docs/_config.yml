@@ -25,7 +25,7 @@ email: gliao@post.harvard.edu
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "goliao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gordonliao
 # github_username:  bookworm89
 
@@ -33,6 +33,7 @@ twitter_username: gordonliao
 theme: minima #jekyll-theme-minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 header_pages:
   - index.markdown
