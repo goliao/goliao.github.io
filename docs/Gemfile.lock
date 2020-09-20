@@ -255,10 +255,10 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (~> 207)
-  jekyll-feed (~> 0.12)
+  github-pages
+  jekyll-feed
   jekyll-sitemap
-  minima (~> 2.5)
+  minima
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
