@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ""
+title: Gordon Y. Liao
 email: gliao@post.harvard.edu
 description: ""
 # description: >- # this means to ignore newlines until "baseurl:"
@@ -40,7 +40,11 @@ header_pages:
   - index.markdown
   - research.md
   - academicCV.md
-
+defaults:
+  - scope:
+      path: ""
+    values:
+      author: ""
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
