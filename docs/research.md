@@ -13,6 +13,7 @@ Papers completed during my 4 years of Ph.D. and 2 years as an economist at the F
 1. **[The Hedging Channel of Exchange Rate Determination](../papers/HedgingChannelofExchangeRate_Latest.pdf)**, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
 
     We show that currency hedging links external imbalances to exchange rate movements, cross-currency basis, and currency option skew.  
+    - [VOXeu](https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19)
    <!-- SR-SV[https://www.sr-sv.com/external-imbalances-and-fx-returns/] -->
 
 2. **[U.S. Banks and Global Liquidity](https://conference.nber.org/conf_papers/f142383.pdf)**, joint with [Ricardo Correa](https://sites.google.com/view/ricardocorrea/home) and [Wenxin Du](https://sites.google.com/site/wenxindu/)
