@@ -28,7 +28,7 @@ Papers completed during my 4 years of Ph.D. and 2 years as an economist at the F
 {:start="3"}
 3. **[Rare Disaster Probability and Options-Pricing](https://scholar.harvard.edu/files/gliao/files/optionimpliedraredisasters.pdf)**, joint with [Robert Barro](https://scholar.harvard.edu/barro/home)
     - **Journal of Financial Economics** (forthcoming)
-    - Data: [Disaster probability time series](https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0)
+    - Data: [Disaster probability time series](https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0); [Updated (Mar2020) U.S. disaster probabilities](data/spx_disaster_prob_march2020update.csv)
     <!-- <p>&nbsp;</p> -->
 
 
