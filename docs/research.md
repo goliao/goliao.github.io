@@ -4,8 +4,8 @@ title: "Research"
 permalink: /research/
 ---
 
-Papers completed during my 4 years of Ph.D. and 2 years as an economist at the Fed
-
+<!-- Papers completed during my 4 years of Ph.D. and 2 years as an economist at the Fed
+ -->
 
 <!-- To cite: bibtex -->
 # WORKING PAPERS
@@ -28,7 +28,7 @@ Papers completed during my 4 years of Ph.D. and 2 years as an economist at the F
 {:start="3"}
 3. **[Rare Disaster Probability and Options-Pricing](https://authors.elsevier.com/a/1c4F6,6wzyPa2g)**, joint with [Robert Barro](https://scholar.harvard.edu/barro/home)
     - **Journal of Financial Economics** (2020)
-    - Data: [Disaster probability time series](https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0); [Updated (Mar2020) U.S. disaster probabilities](data/spx_disaster_prob_march2020update.csv)
+    - Data: [Disaster probability time series](https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0); [Updated (March 2021) U.S. disaster probabilities](data/spx_disaster_prob_march2021update.csv)
     <!-- <p>&nbsp;</p> -->
 
 
