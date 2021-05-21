@@ -27,21 +27,21 @@ permalink: /research/
 
 {:start="3"}
 3. **[Rare Disaster Probability and Options-Pricing](https://oconnell.fas.harvard.edu/files/gliao/files/rarediasteroptions.pdf)**, joint with [Robert Barro](https://scholar.harvard.edu/barro/home)
-    - **Journal of Financial Economics** (2020)
+    - **[Journal of Financial Economics](https://doi.org/10.1016/j.jfineco.2020.10.001)** (2020)
     - Data: [Disaster probability time series](https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0); [Updated (March 2021) U.S. disaster probabilities](data/spx_disaster_prob_march2021update.csv)
     <!-- <p>&nbsp;</p> -->
 
 
 4. **[Credit Migration and Covered Interest Rate Parity](papers/CreditCIP_JFE.pdf)**
-    - **Journal of Financial Economics** (2020)
+    - **[Journal of Financial Economics](https://doi.org/10.1016/j.jfineco.2020.06.002)** (2020)
     - Data: [Corporate Basis and Residualized Credit Spreads](http://bit.ly/CreditCIPData)
     - [slides (BIS symposium on CIP May 2017)](https://www.bis.org/events/bissymposium0517/symposium0517_12_pres.pdf)
     - Press: [Bloomberg](https://www.bloomberg.com/opinion/articles/2016-10-27/commissions-and-chatbots), [John Cochrane's Blog](https://johnhcochrane.blogspot.com/2017/03/covered-interest-parity.html)
     <!-- <p>&nbsp;</p> -->
 5. **[Asset Price Dynamics in Partially Segmented Markets](https://www.hbs.edu/ris/Publication%20Files/Asset%20Price%20Dynamics%20in%20Partially%20Segmented%20Markets_8aa188d2-3cf0-4190-9860-017aff413c6a.pdf)**, joint with [Robin Greenwood](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446) and [Sam Hanson](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=333598)
-    - **Review of Financial Studies**, Volume 31, Issue 9, 1 September 2018, Pages 3307–3343
+    - **[Review of Financial Studies](https://doi.org/10.1093/rfs/hhy048)** (2018)
 6. **[Rethinking Operational Risk Capital Requirements](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)**,  joint with Peter Sands and [Yueran Ma](https://voices.uchicago.edu/yueranma/)
-  - **Journal of Financial Regulation**, Volume 4, Issue 1, 1 March 2018, Pages 1–34
+  - **[Journal of Financial Regulation](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)** (2018)
 
 # NON-REFERRED MANUSCRIPT
 Older paper (predoctoral)
