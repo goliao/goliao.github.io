@@ -27,7 +27,7 @@ permalink: /research/
 4. **[U.S. Banks and Global Liquidity](https://conference.nber.org/conf_papers/f142383.pdf)**, joint with [Ricardo Correa](https://sites.google.com/view/ricardocorrea/home) and [Wenxin Du](https://sites.google.com/site/wenxindu/)
 
     We show that ample reserves are the key to support global banks’ dollar lending in money markets.
-
+    - **Revise and resubmit at the Journal of Finance*
     - [slides (NBER SI 2020)](https://conference.nber.org/conf_papers/f142383.slides.pdf)
     - Press: [Bloomberg](https://news.bloomberglaw.com/banking-law/how-regulations-shrinking-fed-balance-sheet-fueled-repo-mayhem), [WSJ](https://www.wsj.com/articles/how-the-worlds-dullest-market-quietly-created-a-synthetic-dollar-empire-11601031401), [FT](https://on.ft.com/33ydiMD), [Bank Policy Institute](https://bpi.com/notes-papers-presentations/bank-intermediation-in-financial-markets-under-stress/), [SIFMA News](https://www.sifma.org/resources/news/resolution-planning-for-large-international-banks-considerations-for-the-federal-reserve-and-the-fdic/)
 
