@@ -14,7 +14,7 @@ permalink: /research/
 
     We assess the price impact of structured retail products on equity implied volatilities and dividends, and we devise a trading strategy that arbitrage dislocations in option prices.
 
-2. **[U.S. Dollar Currency Premium in Corporate Bonds](../paper/global_corporate_debt.pdf)**, joint with John Caramichael and [Gita Gopinath](https://scholar.harvard.edu/gopinath/home)
+2. **[U.S. Dollar Currency Premium in Corporate Bonds](../papers/global_corporate_debt.pdf)**, joint with John Caramichael and [Gita Gopinath](https://scholar.harvard.edu/gopinath/home)
 
     We isolate a U.S. dollar currency premium by comparing corporate bonds issued in the dollar and the euro by firms outside the U.S. and Eurozone.
 
