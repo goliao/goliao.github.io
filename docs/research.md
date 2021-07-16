@@ -17,6 +17,7 @@ permalink: /research/
 2. **[U.S. Dollar Currency Premium in Corporate Bonds](http://conference.nber.org/conf_papers/f158214.pdf)**, joint with John Caramichael and [Gita Gopinath](https://scholar.harvard.edu/gopinath/home)
 
     We isolate a U.S. dollar currency premium by comparing corporate bonds issued in the dollar and the euro by firms outside the U.S. and Eurozone.
+    -[Slides (NBER SI 2021)](https://conference.nber.org/conf_papers/f158214.slides.pdf)
 
 3. **[The Hedging Channel of Exchange Rate Determination](../papers/HedgingChannelofExchangeRate_Latest.pdf)**, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
 
