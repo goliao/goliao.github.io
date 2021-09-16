@@ -10,11 +10,11 @@ permalink: /research/
 <!-- To cite: bibtex -->
 # WORKING PAPERS
 
-* **[The Price Effects of Innovative Security Design](https://www.dropbox.com/s/29qs9ktprhh4ru4/CLVProject_WP_v7.pdf?dl=0)**, joint with [Claire Celerier](https://sites.google.com/view/clairecelerier/home) and [Boris Vallee](https://www.borisvallee.com/)
+* **[The Price Effects of Innovative Security Design](../papers/CLVProject_WP_v8.pdf)**, joint with [Claire Celerier](https://sites.google.com/view/clairecelerier/home) and [Boris Vallee](https://www.borisvallee.com/)
 
     We assess the price impact of structured retail products on equity implied volatilities and dividends, and we devise a trading strategy that arbitrage dislocations in option prices.
 
-* **[U.S. Dollar Currency Premium in Corporate Bonds](http://conference.nber.org/conf_papers/f158214.pdf)**, joint with John Caramichael and [Gita Gopinath](https://scholar.harvard.edu/gopinath/home)
+* **[U.S. Dollar Currency Premium in Corporate Bonds](papers/US_Banks_Global_Liquidity.pdf)**, joint with John Caramichael and [Gita Gopinath](https://scholar.harvard.edu/gopinath/home)
 
     We isolate a U.S. dollar currency premium by comparing corporate bonds issued in the dollar and the euro by firms outside the U.S. and Eurozone.
     - [Slides (NBER SI 2021)](https://conference.nber.org/conf_papers/f158214.slides.pdf)
