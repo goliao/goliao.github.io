@@ -14,7 +14,7 @@ permalink: /research/
 
     We assess the price impact of structured retail products on equity implied volatilities and dividends, and we devise a trading strategy that arbitrage dislocations in option prices.
 
-* **[U.S. Dollar Currency Premium in Corporate Bonds](papers/US_Banks_Global_Liquidity.pdf)**, joint with John Caramichael and [Gita Gopinath](https://scholar.harvard.edu/gopinath/home)
+* **[U.S. Dollar Currency Premium in Corporate Bonds](http://conference.nber.org/conf_papers/f158214.pdf)**, joint with John Caramichael and [Gita Gopinath](https://scholar.harvard.edu/gopinath/home)
 
     We isolate a U.S. dollar currency premium by comparing corporate bonds issued in the dollar and the euro by firms outside the U.S. and Eurozone.
     - [Slides (NBER SI 2021)](https://conference.nber.org/conf_papers/f158214.slides.pdf)
@@ -25,7 +25,7 @@ permalink: /research/
     - [VOXeu](https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19)
    <!-- SR-SV[https://www.sr-sv.com/external-imbalances-and-fx-returns/] -->
 
-* **[U.S. Banks and Global Liquidity](https://conference.nber.org/conf_papers/f142383.pdf)**, joint with [Ricardo Correa](https://sites.google.com/view/ricardocorrea/home) and [Wenxin Du](https://sites.google.com/site/wenxindu/)
+* **[U.S. Banks and Global Liquidity](papers/US_Banks_Global_Liquidity.pdf)**, joint with [Ricardo Correa](https://sites.google.com/view/ricardocorrea/home) and [Wenxin Du](https://sites.google.com/site/wenxindu/)
 
     We show that ample reserves are the key to support global banks’ dollar lending in money markets.
     - **Revise and resubmit at the Journal of Finance**
