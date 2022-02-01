@@ -10,6 +10,10 @@ permalink: /research/
 <!-- To cite: bibtex -->
 # WORKING PAPERS
 
+
+* **[Stablecoins: Growth Potential and Impact on Banking](https://www.federalreserve.gov/econres/ifdp/stablecoins-growth-potential-and-impact-on-banking.htm)**, joint with [John Caramichael](http://johncaramichael.com/)
+
+
 * **[The Price Effects of Innovative Security Design](../papers/CLVProject_WP_v8.pdf)**, joint with [Claire Celerier](https://sites.google.com/view/clairecelerier/home) and [Boris Vallee](https://www.borisvallee.com/)
 
     We assess the price impact of structured retail products on equity implied volatilities and dividends, and we devise a trading strategy that arbitrage dislocations in option prices.
