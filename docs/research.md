@@ -12,7 +12,7 @@ permalink: /research/
 
 
 * **[Stablecoins: Growth Potential and Impact on Banking](https://www.federalreserve.gov/econres/ifdp/stablecoins-growth-potential-and-impact-on-banking.htm)**, joint with [John Caramichael](http://johncaramichael.com/)
-
+  - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2022-02-01/hedge-funds-are-a-job-now), [Central Banking](https://www.centralbanking.com/fintech/crypto-assets/7928291/fed-paper-explores-stablecoins-impact-on-financial-system), [PYMNTS](https://www.pymnts.com/cryptocurrency/2022/fed-paper-finds-stablecoin-risks-are-manageable-and-come-with-rewards/)
 
 * **[The Price Effects of Innovative Security Design](../papers/CLVProject_WP_v8.pdf)**, joint with [Claire Celerier](https://sites.google.com/view/clairecelerier/home) and [Boris Vallee](https://www.borisvallee.com/)
 

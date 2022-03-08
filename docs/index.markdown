@@ -22,8 +22,8 @@ A.B. Applied Mathematics, Harvard University
 &nbsp;
 
 
-[Curriculum Vitae](GordonLiaoCV.pdf)  &nbsp;
+<!-- [Curriculum Vitae](GordonLiaoCV.pdf)  &nbsp; -->
 [Google Scholar](https://scholar.google.com/citations?user=CjHJb7cAAAAJ&hl=en) &nbsp;
 <!-- [Twitter](https://twitter.com/gordonliao) -->
 
-Gordon Liao is an economist conducting research related to market frictions, international finance, and financial innovations. He has published in journals such as the Review of Financial Studies and Journal of Financial Economics. Gordon holds a Ph.D. in Economics from Harvard University. He received his Bachelor's degree in Applied Mathematics from Harvard College.
+Gordon Liao is an economist with policy advisory and research focus on market frictions, international finance, and digital assets. He has published in journals such as the Review of Financial Studies and Journal of Financial Economics. Gordon holds a Ph.D. in Economics from Harvard University. He received his Bachelor's degree in Applied Mathematics from Harvard College.
