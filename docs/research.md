@@ -57,7 +57,12 @@ permalink: /research/
   - Published version: **[Journal of Financial Regulation, 2018](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)**
 
 # NON-REFERRED MANUSCRIPT
-Older paper
-
+<!-- Older paper
+ -->
 {:start="9"}
+* **[The Dominance of Uniswap v3 Liquidity](https://www.paradigm.xyz/2022/05/the-dominance-of-uniswap-v3-liquidity)** joint with [Dan Robinson](https://www.paradigm.xyz/team/danrobinson)
+
+
+* **[Uniswap Returns for Passive Liquidity Providers](https://uniswap.org/SuperiorReturnsForLiquidityProviders.pdf)** joint with Austin Adams
+
 * **[Average Marginal Income Tax Rates in New Zealand, 1907-2009](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205)** joint with [Debasis Bandyopadhyay](https://www.business.auckland.ac.nz/people/dban008), [Robert J. Barro](https://scholar.harvard.edu/barro/home), Jeremy Couchman, [Norman Gemmell](https://www.wgtn.ac.nz/sacl/about/staff/norman-gemmell), and Fiona McAlister
