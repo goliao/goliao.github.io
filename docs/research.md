@@ -61,8 +61,12 @@ permalink: /research/
  -->
 {:start="9"}
 * **[The Dominance of Uniswap v3 Liquidity](https://uniswap.org/TheDominanceofUniswapv3Liquidity.pdf)** joint with [Dan Robinson](https://www.paradigm.xyz/team/danrobinson)
+    - [Data](https://bit.ly/v3depthdata)
+    - [Code](https://github.com/Uniswap/v3-market-depth-study)
 
 
 * **[Uniswap Returns for Passive Liquidity Providers](https://uniswap.org/SuperiorReturnsForLiquidityProviders.pdf)** joint with Austin Adams
-
+    - [Data](https://storage.googleapis.com/uniswap-fee-returns/protocol_returns.csv)
+    - [Code](https://github.com/Uniswap/returns-comparison-study)
+    
 * **[Average Marginal Income Tax Rates in New Zealand, 1907-2009](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205)** joint with [Debasis Bandyopadhyay](https://www.business.auckland.ac.nz/people/dban008), [Robert J. Barro](https://scholar.harvard.edu/barro/home), Jeremy Couchman, [Norman Gemmell](https://www.wgtn.ac.nz/sacl/about/staff/norman-gemmell), and Fiona McAlister
