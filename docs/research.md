@@ -60,7 +60,7 @@ permalink: /research/
 <!-- Older paper
  -->
 {:start="9"}
-* **[The Dominance of Uniswap v3 Liquidity](https://www.paradigm.xyz/2022/05/the-dominance-of-uniswap-v3-liquidity)** joint with [Dan Robinson](https://www.paradigm.xyz/team/danrobinson)
+* **[The Dominance of Uniswap v3 Liquidity](https://uniswap.org/TheDominanceofUniswapv3Liquidity.pdf)** joint with [Dan Robinson](https://www.paradigm.xyz/team/danrobinson)
 
 
 * **[Uniswap Returns for Passive Liquidity Providers](https://uniswap.org/SuperiorReturnsForLiquidityProviders.pdf)** joint with Austin Adams
