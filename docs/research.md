@@ -11,6 +11,9 @@ permalink: /research/
 # WORKING PAPERS
 
 
+* **[Macroprudential Considerations for Tokenized Cash](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228268)**
+   This paper uses blockchain data to examines the use and financial stability risks associated with tokenized cash, a subset of payment stablecoins fully reserved with cash and cash equivalents.
+
 * **[Stablecoins: Growth Potential and Impact on Banking](https://www.federalreserve.gov/econres/ifdp/stablecoins-growth-potential-and-impact-on-banking.htm)**, joint with [John Caramichael](http://johncaramichael.com/)
   - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2022-02-01/hedge-funds-are-a-job-now), [Central Banking](https://www.centralbanking.com/fintech/crypto-assets/7928291/fed-paper-explores-stablecoins-impact-on-financial-system), [PYMNTS](https://www.pymnts.com/cryptocurrency/2022/fed-paper-finds-stablecoin-risks-are-manageable-and-come-with-rewards/)
 
