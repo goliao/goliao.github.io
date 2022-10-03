@@ -39,7 +39,7 @@ plugins:
 header_pages:
   - index.markdown
   - research.md
-  - academicCV.md
+  # - academicCV.md
 defaults:
   - scope:
       path: ""
