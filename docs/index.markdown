@@ -6,7 +6,7 @@ permalink: //
 
 
 ## GORDON Y. LIAO
-<!-- **Email:** gliao [at] post.harvard.edu -->
+<!-- **Email:** gordon [at] circle.com -->
 <img src="img/headshot.jpg" width="300" style="float: left">
 
 <!-- ![](img/headshot.jpg){: style="float: left"; width=50px;} -->
@@ -27,4 +27,6 @@ A.B. Applied Mathematics, Harvard University
 [Twitter](https://twitter.com/gordonliao)
 
 
-Gordon Liao is an economist with policy advisory and research focus on market frictions, international finance, and digital assets. He serves as the Chief Economist for [Circle](https://www.circle.com/en/). He is also a Research Fellow at the Cornell Fintech Initiative and a co-chair of the National Association for Business Economics Finance Roundtable. He is an advisor to Uniswap Labs, where he previously led research. Gordon's experience spans the full-spectrum of finance, from fixed income portfolio management for the Harvard Endowment to advising policies at the Federal Reserve Board of Governors to leading R&D in decentralized finance. His academic work has been published in journals such as the Review of Financial Studies and Journal of Financial Economics. Gordon holds a Ph.D. in Economics from Harvard University. He received his Bachelor's degree in Applied Mathematics from Harvard College.
+Gordon Liao is an economist with research and policy expertise in market frictions, international finance, and digital assets. He currently serves as the Chief Economist for [Circle](https://www.circle.com/en/), and is also a Research Fellow at the Cornell Fintech Initiative and a co-chair of the National Association for Business Economics Finance Roundtable. In addition, he advises Uniswap Labs, where he previously led research. Throughout his career, Gordon has gained expertise in a broad range of financial areas, from fixed income portfolio management at the Harvard Endowment to policy advising at the Federal Reserve Board of Governors to leading research and development in decentralized finance. His academic contributions have been published in respected journals such as the Review of Financial Studies and Journal of Financial Economics. Gordon holds a Ph.D. in Economics from Harvard University. He received his Bachelor's degree in Applied Mathematics from Harvard College.
+
+
