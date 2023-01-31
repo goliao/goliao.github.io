@@ -26,7 +26,7 @@ description: ""
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://goliao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gliao.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gordonliao
 # github_username:  bookworm89
 
@@ -39,7 +39,7 @@ plugins:
 header_pages:
   - index.markdown
   - research.md
-  # - academicCV.md
+  - academicCV.md
 defaults:
   - scope:
       path: ""

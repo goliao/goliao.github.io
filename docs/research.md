@@ -10,6 +10,11 @@ permalink: /research/
 <!-- To cite: bibtex -->
 # WORKING PAPERS
 
+* **[On-Chain Foreign Exchange and Cross-Border Payments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328948)**
+   joint with Austin Adams, Mary-Catherine Lader, David Puth, Xin Wan
+
+   This paper studies the use of distributed ledger technologies in the trading and settlement of foreign exchange on public blockchains and international payments.
+   
 
 * **[Macroprudential Considerations for Tokenized Cash](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228268)**
    
