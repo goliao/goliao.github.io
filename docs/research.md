@@ -62,6 +62,8 @@ permalink: /research/
     <!-- <p>&nbsp;</p> -->
 * **[Asset Price Dynamics in Partially Segmented Markets](https://www.hbs.edu/ris/Publication%20Files/Asset%20Price%20Dynamics%20in%20Partially%20Segmented%20Markets_8aa188d2-3cf0-4190-9860-017aff413c6a.pdf)**, joint with [Robin Greenwood](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446) and [Sam Hanson](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=333598)
     - Published version: **[Review of Financial Studies, 2018](https://doi.org/10.1093/rfs/hhy048)**
+    - [Code](https://github.com/goliao/GHL2018RFS)
+    
 * **[Rethinking Operational Risk Capital Requirements](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)**,  joint with Peter Sands and [Yueran Ma](https://voices.uchicago.edu/yueranma/)
   - Published version: **[Journal of Financial Regulation, 2018](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)**
 
