@@ -5,4 +5,4 @@ permalink: /cv/
 ---
 
 
-[Curriculum Vitae](../GordonLiaoCV.pdf)  (Updated September 2021)
+[Curriculum Vitae](../GordonLiaoCV.pdf)  
