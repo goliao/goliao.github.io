@@ -14,7 +14,9 @@ permalink: /research/
    joint with Austin Adams, Mary-Catherine Lader, David Puth, Xin Wan
 
    This paper studies the use of distributed ledger technologies in the trading and settlement of foreign exchange on public blockchains and international payments.
-   
+   - [Code & Data](https://github.com/Uniswap/fx-comparison-study)
+   - Press: [Bloomberg](https://www.bloomberg.com/news/articles/2023-01-31/the-7-trillion-global-currency-market-is-a-target-for-defi-proponents?srnd=fx-center)
+
 
 * **[Macroprudential Considerations for Tokenized Cash](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228268)**
    
