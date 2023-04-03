@@ -83,3 +83,10 @@ permalink: /research/
     - [Code](https://github.com/Uniswap/returns-comparison-study)
     
 * **[Average Marginal Income Tax Rates in New Zealand, 1907-2009](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205)** joint with [Debasis Bandyopadhyay](https://www.business.auckland.ac.nz/people/dban008), [Robert J. Barro](https://scholar.harvard.edu/barro/home), Jeremy Couchman, [Norman Gemmell](https://www.wgtn.ac.nz/sacl/about/staff/norman-gemmell), and Fiona McAlister
+
+
+# OTHER WRITINGS
+
+* **[Payment versus trading stablecoins](https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins)**, CEPR-VOXeu Column, March 2023
+
+* **[Banks Dominate Payment Systems. The Risks Are All Too Clear](https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659)**, Op-Ed at Barron's, March 2023
