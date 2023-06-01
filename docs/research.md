@@ -92,4 +92,4 @@ permalink: /research/
 * **[Banks Dominate Payment Systems. The Risks Are All Too Clear](https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659)**, Op-Ed at Barron's, March 2023
 
 # Select discussions
-* **[Stablecoins and Short-term Funding Market](papers/Discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
+* **[Stablecoins and Short-term Funding Market](discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
