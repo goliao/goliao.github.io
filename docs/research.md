@@ -17,10 +17,10 @@ permalink: /research/
    - [Code & Data](https://github.com/Uniswap/fx-comparison-study)
    - Press: [Bloomberg](https://www.bloomberg.com/news/articles/2023-01-31/the-7-trillion-global-currency-market-is-a-target-for-defi-proponents?srnd=fx-center), [Nasdaq](https://www.nasdaq.com/articles/could-defi-be-the-future-of-foreign-exchange-trading)
 
-
 * **[Macroprudential Considerations for Tokenized Cash](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228268)**
-   
+
    This paper uses blockchain data to examines the use and financial stability risks associated with tokenized cash, a subset of payment stablecoins fully reserved with cash and cash equivalents.
+   - [VOXeu](https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins)
 
 * **[Stablecoins: Growth Potential and Impact on Banking](https://www.federalreserve.gov/econres/ifdp/stablecoins-growth-potential-and-impact-on-banking.htm)**, joint with [John Caramichael](http://johncaramichael.com/)
   - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2022-02-01/hedge-funds-are-a-job-now), [Central Banking](https://www.centralbanking.com/fintech/crypto-assets/7928291/fed-paper-explores-stablecoins-impact-on-financial-system), [PYMNTS](https://www.pymnts.com/cryptocurrency/2022/fed-paper-finds-stablecoin-risks-are-manageable-and-come-with-rewards/)
@@ -65,7 +65,7 @@ permalink: /research/
 * **[Asset Price Dynamics in Partially Segmented Markets](https://www.hbs.edu/ris/Publication%20Files/Asset%20Price%20Dynamics%20in%20Partially%20Segmented%20Markets_8aa188d2-3cf0-4190-9860-017aff413c6a.pdf)**, joint with [Robin Greenwood](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446) and [Sam Hanson](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=333598)
     - Published version: **[Review of Financial Studies, 2018](https://doi.org/10.1093/rfs/hhy048)**
     - [Code](https://github.com/goliao/GHL2018RFS)
-    
+
 * **[Rethinking Operational Risk Capital Requirements](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)**,  joint with Peter Sands and [Yueran Ma](https://voices.uchicago.edu/yueranma/)
   - Published version: **[Journal of Financial Regulation, 2018](https://academic.oup.com/jfr/advance-article/doi/10.1093/jfr/fjx009/4792987?guestAccessKey=d0072d99-69fa-4898-be75-05152c6a865b)**
 
@@ -81,7 +81,7 @@ permalink: /research/
 * **[Uniswap Returns for Passive Liquidity Providers](https://uniswap.org/SuperiorReturnsForLiquidityProviders.pdf)** joint with Austin Adams
     - [Data](https://storage.googleapis.com/uniswap-fee-returns/protocol_returns.csv)
     - [Code](https://github.com/Uniswap/returns-comparison-study)
-    
+
 * **[Average Marginal Income Tax Rates in New Zealand, 1907-2009](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205)** joint with [Debasis Bandyopadhyay](https://www.business.auckland.ac.nz/people/dban008), [Robert J. Barro](https://scholar.harvard.edu/barro/home), Jeremy Couchman, [Norman Gemmell](https://www.wgtn.ac.nz/sacl/about/staff/norman-gemmell), and Fiona McAlister
 
 
@@ -90,3 +90,6 @@ permalink: /research/
 * **[Payment versus trading stablecoins](https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins)**, CEPR-VOXeu Column, March 2023
 
 * **[Banks Dominate Payment Systems. The Risks Are All Too Clear](https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659)**, Op-Ed at Barron's, March 2023
+
+# Select discussions
+* **[Stablecoins and Short-term Funding Market](papers/Discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
