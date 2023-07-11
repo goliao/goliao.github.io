@@ -10,6 +10,10 @@ permalink: /research/
 <!-- To cite: bibtex -->
 # WORKING PAPERS
 
+* **[Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859)**
+   joint with Thomas Hadeed and Ziming Zeng
+
+
 * **[On-Chain Foreign Exchange and Cross-Border Payments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328948)**
    joint with Austin Adams, Mary-Catherine Lader, David Puth, Xin Wan
 
@@ -90,6 +94,8 @@ permalink: /research/
 * **[Payment versus trading stablecoins](https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins)**, CEPR-VOXeu Column, March 2023
 
 * **[Banks Dominate Payment Systems. The Risks Are All Too Clear](https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659)**, Op-Ed at Barron's, March 2023
+
+* **[How to preserve the singleness of money for tokenised forms of money?](discussion/singleness_of_money.pdf)**, June 2023
 
 # Select discussions
 * **[Stablecoins and Short-term Funding Market](discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
