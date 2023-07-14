@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Tokenisation and Decentralized Finance"
-permalink: /defi/
+title: "Tokenisation"
+permalink: /tokenisation/
 ---
 
 <!-- Papers completed during my 4 years of Ph.D. and 2 years as an economist at the Fed
