@@ -13,7 +13,7 @@ permalink: //
 
 **Education:**
 
-Ph.D./A.M. Economics, Harvard University
+Ph.D., A.M. Economics, Harvard University
 <!-- , 2013-2017 -->
 
 A.B. Applied Mathematics, Harvard University
