@@ -48,6 +48,8 @@ permalink: /tokenisation/
 
 
 # Others
+* **[Cooperative AI and Decentralized Trust](discussion/CooperativeAI_and_Decentralized_Trust.pdf), Berkeley RDI, August 2023**
+
 * **[Banks Dominate Payment Systems. The Risks Are All Too Clear](https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659)**, Op-Ed at Barron's, March 2023
 
 
