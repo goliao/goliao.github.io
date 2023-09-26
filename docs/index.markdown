@@ -31,4 +31,4 @@ Gordon Liao is an economist with research and policy expertise in financial inte
 
 
 
-[Headshot 1](../img/gordon_headshot_2.jpg), [Headshot 2](../img/gordon_headshot_1.jpg)
+[Headshot 1](../img/gordon_headshot_2.jpg), [Headshot 2](../img/gordon_headshot_1.jpg), [Short bio](bio.md)
