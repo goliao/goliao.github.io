@@ -12,7 +12,7 @@ permalink: /research/
 
 * **[Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859)**
    joint with Thomas Hadeed and Ziming Zeng
-   - [Slides](../paper/Liao_OCC_Tokenization_Confernece.pdf), February 2024, OCC Symposium on the Tokenization of Real-World Assets and Liabilities 
+   - [Slides](../papers/Liao_OCC_Tokenization_Confernece.pdf), February 2024, OCC Symposium on the Tokenization of Real-World Assets and Liabilities 
    - [Video highlights](https://youtu.be/Iit75lVVzIk) from D.C. Fintech Week Best Paper Award 2023
 
 * **[On-Chain Foreign Exchange and Cross-Border Payments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328948)**
