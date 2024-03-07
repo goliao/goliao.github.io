@@ -7,8 +7,8 @@ permalink: //
 
 ## GORDON Y. LIAO
 <!-- **Email:** gordon [at] circle.com -->
-<!-- <img src="img/headshot.jpg" width="300" style="float: left"> -->
-<img src="img/gordon_liao_3.jpg" width="300" style="float: left; padding-right: 20px; padding-bottom: 30px;">
+<img src="img/headshot.jpg" width="300" style="float: left">
+<!-- <img src="img/gordon_liao_3.jpg" width="300" style="float: left; padding-right: 20px; padding-bottom: 30px;"> -->
 
 <!-- ![](img/headshot.jpg){: style="float: left"; width=50px;} -->
 
