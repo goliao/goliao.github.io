@@ -14,6 +14,7 @@ permalink: /tokenisation/
 
 * **[Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859)**
    joint with Thomas Hadeed and Ziming Zeng
+   - [Video highlights](https://youtu.be/Iit75lVVzIk) from D.C. Fintech Week Best Paper Award 2023
 
 * **[Payment versus trading stablecoins](https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins)**, CEPR-VOXeu Column, March 2023
 
