@@ -40,13 +40,6 @@ permalink: /research/
     We isolate a U.S. dollar currency premium by comparing corporate bonds issued in the dollar and the euro by firms outside the U.S. and Eurozone.
     - [Slides (NBER SI 2021)](https://conference.nber.org/conf_papers/f158214.slides.pdf)
 
-* **[The Hedging Channel of Exchange Rate Determination](../papers/HedgingChannelofExchangeRate_Latest.pdf)**, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
-
-    We show that currency hedging links external imbalances to exchange rate movements, cross-currency basis, and currency option skew.  
-    - **Revise and resubmit at RFS**
-    - [VOXeu](https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19)
-   <!-- SR-SV[https://www.sr-sv.com/external-imbalances-and-fx-returns/] -->
-
 * **[U.S. Banks and Global Liquidity](papers/US_Banks_Global_Liquidity.pdf)**, joint with [Ricardo Correa](https://sites.google.com/view/ricardocorrea/home) and [Wenxin Du](https://sites.google.com/site/wenxindu/)
 
     We show that ample reserves are the key to support global banks’ dollar lending in money markets.
@@ -56,6 +49,14 @@ permalink: /research/
 # PUBLICATIONS
 
 {:start="5"}
+
+* **[The Hedging Channel of Exchange Rate Determination](../papers/HedgingChannelofExchangeRate_Latest.pdf)**, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
+
+    We show that currency hedging links external imbalances to exchange rate movements, cross-currency basis, and currency option skew.  
+    - **Accepted at Review of Financial Studies**
+    - [VOXeu](https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19)
+   <!-- SR-SV[https://www.sr-sv.com/external-imbalances-and-fx-returns/] -->
+
 * **[Rare Disaster Probability and Options-Pricing](https://oconnell.fas.harvard.edu/files/gliao/files/rarediasteroptions.pdf)**, joint with [Robert Barro](https://scholar.harvard.edu/barro/home)
     - Published version: **[Journal of Financial Economics, 2020](https://doi.org/10.1016/j.jfineco.2020.10.001)**
     - Data: [Disaster probability time series](https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0); [Updated (March 2021) U.S. disaster probabilities](data/spx_disaster_prob_march2021update.csv)
