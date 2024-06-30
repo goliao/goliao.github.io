@@ -50,12 +50,20 @@ permalink: /tokenisation/
 
 
 # Others
+* **[AI in the Future of Finance](discussion/AI_and_finance_PIFS_2024_June.pdf)**, Slides from Harvard PIFS, June 2024
+
 * **[Cooperative AI and Decentralized Trust](discussion/CooperativeAI_and_Decentralized_Trust.pdf)**, Slides from Berkeley RDI summit, August 2023
 
 * **[Banks Dominate Payment Systems. The Risks Are All Too Clear](https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659)**, Op-Ed at Barron's, March 2023
 
 
 * **[TradFi, CeFi, DeFi: A Balance Sheet Journey Through Financial Alchemy](https://www.circle.com/blog/tradfi-cefi-defi-a-balance-sheet-journey-through-financial-alchemy)**, Keynote address at Harvard Blockchain Conference, April 1, 2023
+
+
+# Select discussions
+* **[Stablecoins and Short-term Funding Market](discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
+
+* **[Anatomy of a Run: The Terra Luna Crash](discussion/Discussion_Terra_Luna_Crash.pdf)** at WFA 2024
 
 # On-chain data
 

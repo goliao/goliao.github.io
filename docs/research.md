@@ -102,3 +102,6 @@ permalink: /research/
 
 # Select discussions
 * **[Stablecoins and Short-term Funding Market](discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
+
+* **[Anatomy of a Run: The Terra Luna Crash](discussion/Discussion_Terra_Luna_Crash.pdf)** at WFA 2024
+
