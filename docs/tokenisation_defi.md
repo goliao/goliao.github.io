@@ -10,6 +10,10 @@ permalink: /tokenisation/
 <!-- To cite: bibtex -->
 # Payment Stablecoins and Tokenised Money
 
+* **[Risk-based Capital for Stable Value Tokens](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568)**, joint with Dan Fishman, Jeremy Fox-Geen, August 2024
+
+* **[What Drives Crypto Asset Prices?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910537)**, joint with Austin Adams, Markus Ibert, August 2024
+
 * **[How to preserve the singleness of money for tokenised forms of money?](discussion/Singleness_of_money.pdf)**, July 2023
 
 * **[Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859)**

@@ -10,6 +10,12 @@ permalink: /research/
 <!-- To cite: bibtex -->
 # WORKING PAPERS
 
+* **[Risk-based Capital for Stable Value Tokens](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568)**, joint with Dan Fishman, Jeremy Fox-Geen, August 2024
+    - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs)
+
+* **[What Drives Crypto Asset Prices?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910537)**, joint with Austin Adams, Markus Ibert, August 2024
+    - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2024-08-05/the-good-trades-have-gone-bad)
+
 * **[Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859)**
    joint with Thomas Hadeed and Ziming Zeng
    - [Slides](../papers/Liao_OCC_Tokenization_Confernece.pdf), February 2024, OCC Symposium on the Tokenization of Real-World Assets and Liabilities 
