@@ -11,8 +11,10 @@ permalink: /tokenisation/
 # Payment Stablecoins and Tokenised Money
 
 * **[Risk-based Capital for Stable Value Tokens](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568)**, joint with Dan Fishman, Jeremy Fox-Geen, August 2024
+    - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs)
 
 * **[What Drives Crypto Asset Prices?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910537)**, joint with Austin Adams, Markus Ibert, August 2024
+    - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2024-08-05/the-good-trades-have-gone-bad)
 
 * **[How to preserve the singleness of money for tokenised forms of money?](discussion/Singleness_of_money.pdf)**, July 2023
 
