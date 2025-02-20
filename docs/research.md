@@ -56,10 +56,10 @@ permalink: /research/
 
 {:start="5"}
 
-* **[The Hedging Channel of Exchange Rate Determination](../papers/HedgingChannelofExchangeRate_Latest.pdf)**, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
+* **[The Hedging Channel of Exchange Rate Determination](https://academic.oup.com/rfs/article/38/1/1/7833369)**, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
 
     We show that currency hedging links external imbalances to exchange rate movements, cross-currency basis, and currency option skew.  
-    - **Accepted at Review of Financial Studies**
+    - **Review of Financial Studies, 2025, Editor's Choice**
     - [VOXeu](https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19)
    <!-- SR-SV[https://www.sr-sv.com/external-imbalances-and-fx-returns/] -->
 
