@@ -56,6 +56,10 @@ permalink: /tokenisation/
 
 
 # Others
+* **['Code as Law': The tokenization of financial assets and the paradox of programmability](https://www.weforum.org/stories/2024/10/tokenization-financial-assets-crypto-programmable-paradox/)**, World Economic Forum, October 2024
+
+* **[Money Tokens: The Digital Revolution Reshaping Money](https://www.brettonwoods.org/article/money-tokens-the-digital-revolution-reshaping-money)**, the Bretton Woods Committee, October, 2024
+
 * **[AI in the Future of Finance](discussion/AI_and_finance_PIFS_2024_June.pdf)**, Slides from Harvard PIFS, June 2024
 
 * **[Cooperative AI and Decentralized Trust](discussion/CooperativeAI_and_Decentralized_Trust.pdf)**, Slides from Berkeley RDI summit, August 2023
@@ -64,6 +68,7 @@ permalink: /tokenisation/
 
 
 * **[TradFi, CeFi, DeFi: A Balance Sheet Journey Through Financial Alchemy](https://www.circle.com/blog/tradfi-cefi-defi-a-balance-sheet-journey-through-financial-alchemy)**, Keynote address at Harvard Blockchain Conference, April 1, 2023
+
 
 
 # Select discussions
