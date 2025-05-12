@@ -72,6 +72,8 @@ permalink: /tokenisation/
 
 
 # Select discussions
+* **[Decrypting Crypto: How to Estimate International Stablecoin Flows](discussion/Discussion_Liao_Decrypting_Crypto_Flow.pdf)** at the 7th IMF Annual Macro-Finance Research Conference
+
 * **[Stablecoins and Short-term Funding Market](discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
 
 * **[Anatomy of a Run: The Terra Luna Crash](discussion/Discussion_Terra_Luna_Crash.pdf)** at WFA 2024
