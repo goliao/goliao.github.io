@@ -10,6 +10,8 @@ permalink: /tokenisation/
 <!-- To cite: bibtex -->
 # Payment Stablecoins and Tokenised Money
 
+* **[Transaction Proximity: A Graph-Based Approach to Blockchain Fraud Prevention](https://arxiv.org/html/2505.24284v1)**, joint with Ziming Zeng, Mira Belenkiy, Jacob Hirshman, 2025
+
 * **[Risk-based Capital for Stable Value Tokens](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568)**, joint with Dan Fishman, Jeremy Fox-Geen, August 2024
     - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs)
 
@@ -56,6 +58,8 @@ permalink: /tokenisation/
 
 
 # Others
+* **[The Autonomous Economic Fabric: How Onchain AI is Redefining Economic Boundaries](discussion/slides_Onchain_AI_Aug2025.pdf)**, Slides from 3rd Annual Summit on Decentralization and AI 2025 hosted by Berkeley RDI, August 2025
+
 * **['Code as Law': The tokenization of financial assets and the paradox of programmability](https://www.weforum.org/stories/2024/10/tokenization-financial-assets-crypto-programmable-paradox/)**, World Economic Forum, October 2024
 
 * **[Money Tokens: The Digital Revolution Reshaping Money](https://www.brettonwoods.org/article/money-tokens-the-digital-revolution-reshaping-money)**, the Bretton Woods Committee, October, 2024
