@@ -1,0 +1,345 @@
+# Papers — one entry per paper.
+# status: working | published | technical | other
+# dates: quoted "YYYY-MM" or "YYYY"
+# journal_tag: reserved for top journals (RFS / JFE / JFR) — renders as a pill.
+
+# ---------- Working papers ----------
+
+- title: "Risk-based Capital for Stable Value Tokens"
+  authors: [Dan Fishman, Jeremy Fox-Geen]
+  date: "2024-08"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568"
+  press:
+    - { outlet: "Bloomberg Money Stuff", url: "https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs" }
+  topics: [stablecoins]
+  featured: true
+  note: "The Token Capital Adequacy Framework (TCAF) — risk-based capital for stablecoin issuers."
+
+- title: "How do Households Suppress the Price of Tail Risk?"
+  authors: [Laurent Calvet, Claire Célérier, Boris Vallée]
+  date: "2025-12"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    pdf: "/papers/HouseholdsTailRisk_WP.pdf"
+  press: []
+  topics: [options]
+  featured: false
+  note: "Best Conference Paper Prize, Paris December Finance Meeting 2025. Formerly circulated as “The Price Effects of Innovative Security Design.”"
+
+- title: "What Drives Crypto Asset Prices?"
+  authors: [Austin Adams, Markus Ibert]
+  date: "2024-08"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910537"
+  press:
+    - { outlet: "Bloomberg Money Stuff", url: "https://www.bloomberg.com/opinion/articles/2024-08-05/the-good-trades-have-gone-bad" }
+  topics: [markets]
+  featured: false
+  note: ""
+
+- title: "What Drives Liquidity on Decentralized Exchanges? Evidence from the Uniswap Protocol"
+  authors: [Brian Z. Zhu, Dingyue Liu, Xin Wan, Ciamac C. Moallemi, Brad Bachu]
+  date: "2024-10"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    pdf: "https://arxiv.org/abs/2410.19107"
+  press: []
+  topics: [amm]
+  featured: false
+  note: ""
+
+- title: "Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements"
+  authors: [Thomas Hadeed, Ziming Zeng]
+  date: "2023-06"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859"
+    slides: "/papers/Liao_OCC_Tokenization_Confernece.pdf"
+    video: "https://youtu.be/Iit75lVVzIk"
+  press: []
+  topics: [stablecoins]
+  featured: false
+  note: "Best Paper Award, D.C. Fintech Week 2023."
+
+- title: "On-Chain Foreign Exchange and Cross-Border Payments"
+  authors: [Austin Adams, Mary-Catherine Lader, David Puth, Xin Wan]
+  date: "2023-01"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328948"
+    slides: "/papers/On-Chain_FX_BOC_JUN23.pdf"
+    code: "https://github.com/Uniswap/fx-comparison-study"
+  press:
+    - { outlet: "Bloomberg", url: "https://www.bloomberg.com/news/articles/2023-01-31/the-7-trillion-global-currency-market-is-a-target-for-defi-proponents" }
+    - { outlet: "Nasdaq", url: "https://www.nasdaq.com/articles/could-defi-be-the-future-of-foreign-exchange-trading" }
+  topics: [amm, fx]
+  featured: false
+  note: "Distributed-ledger trading and settlement of FX on public blockchains."
+
+- title: "Macroprudential Considerations for Tokenized Cash"
+  authors: []
+  date: "2022-09"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228268"
+  press:
+    - { outlet: "VoxEU", url: "https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins" }
+  topics: [stablecoins, tokenization]
+  featured: false
+  note: "Blockchain evidence on the use and financial-stability risks of tokenized cash."
+
+- title: "Stablecoins: Growth Potential and Impact on Banking"
+  authors: [John Caramichael]
+  date: "2022-01"
+  status: working
+  venue: "Federal Reserve International Finance Discussion Papers"
+  journal_tag: ""
+  links:
+    journal: "https://www.federalreserve.gov/econres/ifdp/stablecoins-growth-potential-and-impact-on-banking.htm"
+  press:
+    - { outlet: "Bloomberg Money Stuff", url: "https://www.bloomberg.com/opinion/articles/2022-02-01/hedge-funds-are-a-job-now" }
+    - { outlet: "Central Banking", url: "https://www.centralbanking.com/fintech/crypto-assets/7928291/fed-paper-explores-stablecoins-impact-on-financial-system" }
+    - { outlet: "PYMNTS", url: "https://www.pymnts.com/cryptocurrency/2022/fed-paper-finds-stablecoin-risks-are-manageable-and-come-with-rewards/" }
+  topics: [stablecoins, banking]
+  featured: true
+  note: ""
+
+- title: "U.S. Dollar Currency Premium in Corporate Bonds"
+  authors: [John Caramichael, Gita Gopinath]
+  date: "2021-07"
+  status: working
+  venue: "IMF Working Paper 2021/185"
+  journal_tag: ""
+  links:
+    journal: "https://www.imf.org/en/publications/wp/issues/2021/07/12/u-s-461324"
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4026384"
+  press: []
+  topics: [fx, credit]
+  featured: false
+  note: "Isolates a dollar currency premium from corporate bonds issued in dollars and euros by firms outside both blocs."
+
+- title: "U.S. Banks and Global Liquidity"
+  authors: [Ricardo Correa, Wenxin Du]
+  date: "2020-07"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3638658"
+    pdf: "/papers/US_Banks_Global_Liquidity.pdf"
+  press:
+    - { outlet: "WSJ", url: "https://www.wsj.com/articles/how-the-worlds-dullest-market-quietly-created-a-synthetic-dollar-empire-11601031401" }
+    - { outlet: "Bloomberg Law", url: "https://news.bloomberglaw.com/banking-law/how-regulations-shrinking-fed-balance-sheet-fueled-repo-mayhem" }
+    - { outlet: "FT", url: "https://on.ft.com/33ydiMD" }
+  topics: [banking]
+  featured: false
+  note: "Ample reserves are key to global banks’ dollar lending in money markets."
+
+# ---------- Publications ----------
+
+- title: "The Hedging Channel of Exchange Rate Determination"
+  authors: [Tony Zhang]
+  date: "2025-01"
+  status: published
+  venue: "Review of Financial Studies, 38(1), 2025"
+  journal_tag: "RFS"
+  links:
+    journal: "https://doi.org/10.1093/rfs/hhae072"
+    pdf: "/papers/HedgingChannelofExchangeRate_Latest.pdf"
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3612395"
+  press:
+    - { outlet: "VoxEU", url: "https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19" }
+  topics: [fx]
+  featured: true
+  note: "Currency hedging links external imbalances to exchange rates, the cross-currency basis, and option skew."
+
+- title: "Rare Disaster Probability and Options Pricing"
+  authors: [Robert Barro]
+  date: "2021-03"
+  status: published
+  venue: "Journal of Financial Economics, 2021"
+  journal_tag: "JFE"
+  links:
+    journal: "https://doi.org/10.1016/j.jfineco.2020.10.001"
+    data: "https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0"
+  press: []
+  topics: [options]
+  featured: true
+  note: "Disaster probabilities extracted from option prices. Updated U.S. series: /data/spx_disaster_prob_march2021update.csv"
+
+- title: "Credit Migration and Covered Interest Rate Parity"
+  authors: []
+  date: "2020-11"
+  status: published
+  venue: "Journal of Financial Economics, 2020"
+  journal_tag: "JFE"
+  links:
+    journal: "https://doi.org/10.1016/j.jfineco.2020.06.002"
+    pdf: "/papers/CreditCIP_JFE.pdf"
+    data: "http://bit.ly/CreditCIPData"
+    slides: "https://www.bis.org/events/bissymposium0517/symposium0517_12_pres.pdf"
+  press:
+    - { outlet: "Bloomberg", url: "https://www.bloomberg.com/opinion/articles/2016-10-27/commissions-and-chatbots" }
+    - { outlet: "John Cochrane's blog", url: "https://johnhcochrane.blogspot.com/2017/03/covered-interest-parity.html" }
+  topics: [fx, credit]
+  featured: false
+  note: ""
+
+- title: "Asset Price Dynamics in Partially Segmented Markets"
+  authors: [Robin Greenwood, Samuel Hanson]
+  date: "2018-09"
+  status: published
+  venue: "Review of Financial Studies, 2018"
+  journal_tag: "RFS"
+  links:
+    journal: "https://doi.org/10.1093/rfs/hhy048"
+    pdf: "https://www.hbs.edu/ris/Publication%20Files/Asset%20Price%20Dynamics%20in%20Partially%20Segmented%20Markets_8aa188d2-3cf0-4190-9860-017aff413c6a.pdf"
+    code: "https://github.com/goliao/GHL2018RFS"
+  press: []
+  topics: [markets]
+  featured: false
+  note: ""
+
+- title: "Rethinking Operational Risk Capital Requirements"
+  authors: [Peter Sands, Yueran Ma]
+  date: "2018-03"
+  status: published
+  venue: "Journal of Financial Regulation, 2018"
+  journal_tag: "JFR"
+  links:
+    journal: "https://academic.oup.com/jfr/article/4/1/1/4792987"
+  press: []
+  topics: [banking]
+  featured: false
+  note: ""
+
+- title: "Democratizing Effects of Digital Ledger Technologies: Implications for Economic Mobility"
+  authors: [Christos Makridis]
+  date: "2023-03"
+  status: published
+  venue: "Frontiers in Blockchain, 2023"
+  journal_tag: ""
+  links:
+    journal: "https://doi.org/10.3389/fbloc.2023.972183"
+  press: []
+  topics: [tokenization]
+  featured: false
+  note: ""
+
+# ---------- Technical reports ----------
+
+- title: "AMP: Arc Multi-Proposer Protocol with Bounded Inclusion Guarantees"
+  authors: [Daniel Cason, Sergio Mena, Nenad Milošević, Adi Seredinschi, Alessandro Sforzin, João Sousa, Preston Vander Vos]
+  date: "2026-05"
+  status: technical
+  venue: "arXiv (cs.DC)"
+  journal_tag: ""
+  links:
+    pdf: "https://arxiv.org/abs/2605.23677"
+  press: []
+  topics: [arc, infrastructure]
+  featured: false
+  note: "Multi-proposer consensus with bounded transaction-inclusion guarantees, developed for Arc."
+
+- title: "Circle’s Post-Quantum Security Roadmap"
+  authors: [Mira Belenkiy, Duc V. Le, Vipin Singh Sehrawat, Dragos Rotaru, Sergey Gorbunov, Milap Sheth, Jay Logelin, Anthony De Abreu, Dan Boneh]
+  date: "2026-05"
+  status: technical
+  venue: "Circle"
+  journal_tag: ""
+  links:
+    pdf: "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/quantum_paper.pdf"
+    mirror: "/papers/circle_quantum_roadmap.pdf"
+  press: []
+  topics: [quantum, infrastructure]
+  featured: false
+  note: "Securing blockchains, smart contracts, and digital assets for the quantum era."
+
+- title: "Arc: An Open Layer-1 Blockchain Purpose-Built for Stablecoin Finance"
+  authors: [Rachel Mayer, Adrian Soghoian, Sanket Jain, Erik Tierney]
+  date: "2025-08"
+  status: technical
+  venue: "Circle"
+  journal_tag: ""
+  links:
+    pdf: "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/Arc%20Litepaper%20-%202025.pdf"
+    mirror: "/papers/arc_litepaper_2025.pdf"
+  press: []
+  topics: [arc, tokenization, stablecoins]
+  featured: false
+  note: "Litepaper: USDC as native gas, deterministic sub-second settlement finality, and opt-in privacy."
+
+- title: "Transaction Proximity: A Graph-Based Approach to Blockchain Fraud Prevention"
+  authors: [Ziming Zeng, Mira Belenkiy, Jacob Hirshman]
+  date: "2025-05"
+  status: technical
+  venue: "arXiv"
+  journal_tag: ""
+  links:
+    pdf: "https://arxiv.org/abs/2505.24284"
+  press: []
+  topics: [infrastructure]
+  featured: false
+  note: "Fraud deterrence from transaction-graph proximity while preserving blockchain openness."
+
+# ---------- Other manuscripts ----------
+
+- title: "The Dominance of Uniswap v3 Liquidity"
+  authors: [Dan Robinson]
+  date: "2022-06"
+  status: other
+  venue: ""
+  journal_tag: ""
+  links:
+    pdf: "https://uniswap.org/TheDominanceofUniswapv3Liquidity.pdf"
+    data: "https://bit.ly/v3depthdata"
+    code: "https://github.com/Uniswap/v3-market-depth-study"
+  press: []
+  topics: [amm]
+  featured: false
+  note: ""
+
+- title: "Uniswap Returns for Passive Liquidity Providers"
+  authors: [Austin Adams]
+  date: "2021-11"
+  status: other
+  venue: ""
+  journal_tag: ""
+  links:
+    pdf: "https://uniswap.org/SuperiorReturnsForLiquidityProviders.pdf"
+    data: "https://storage.googleapis.com/uniswap-fee-returns/protocol_returns.csv"
+    code: "https://github.com/Uniswap/returns-comparison-study"
+  press: []
+  topics: [amm]
+  featured: false
+  note: ""
+
+- title: "Average Marginal Income Tax Rates in New Zealand, 1907–2009"
+  authors: [Debasis Bandyopadhyay, Robert J. Barro, Jeremy Couchman, Norman Gemmell, Fiona McAlister]
+  date: "2012-01"
+  status: other
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205"
+  press: []
+  topics: []
+  featured: false
+  note: ""
