@@ -126,3 +126,26 @@ p { color: var(--body-c); }
   color: var(--label);
 }
 .site-footer a { color: var(--label); border-bottom: none; }
+
+/* homepage */
+.hero { display: flex; gap: 2.2rem; padding: 2.8rem 0 2.2rem; align-items: flex-start; }
+.hero img { width: 150px; height: auto; border-radius: 3px; flex-shrink: 0; }
+.hero .role { font-family: var(--sans); font-size: 0.85rem; color: var(--bronze); margin: 0.35rem 0 0; }
+.hero .bio { max-width: 34rem; margin-top: 1rem; }
+.hero .quick-links { font-family: var(--sans); font-size: 0.75rem; margin-top: 1rem; }
+.hero .quick-links a { border-bottom: none; }
+.affil-strip {
+  font-family: var(--sans); font-size: 0.72rem; color: #6b6455; letter-spacing: 0.03em;
+  border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline);
+  padding: 0.8rem 0;
+}
+.affil-strip .lead { font-size: 0.6rem; letter-spacing: 0.15em; color: var(--label); }
+.recent-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; font-family: var(--sans); }
+.recent-grid > div { border-top: 2px solid var(--ink); padding-top: 0.6rem; }
+.recent-grid .k { font-size: 0.6rem; letter-spacing: 0.15em; color: var(--label); }
+.recent-grid .v { font-family: var(--serif); font-size: 0.85rem; line-height: 1.5; margin-top: 0.4rem; }
+.see-all { font-family: var(--sans); font-size: 0.72rem; }
+@media (max-width: 640px) {
+  .hero { flex-direction: column; }
+  .recent-grid { grid-template-columns: 1fr; }
+}

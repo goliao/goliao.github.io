@@ -1,6 +1,60 @@
 ---
 import Base from '../layouts/Base.astro';
+import { formatMonth } from '../lib/format.js';
+import profile from '../data/profile.yaml';
+import papers from '../data/papers.yaml';
+import talks from '../data/talks.yaml';
+import press from '../data/press.yaml';
+import writing from '../data/writing.yaml';
+
+const byDate = (a, b) => String(b.date).localeCompare(String(a.date));
+const featured = papers.filter(p => p.featured).sort(byDate).slice(0, 4);
+const latestTalk = [...talks].sort(byDate)[0];
+const latestPress = [...press].sort(byDate)[0];
+const latestWriting = [...writing].sort(byDate)[0];
+const s = profile.social;
+const quick = [
+  ['Google Scholar', s.scholar], ['SSRN', s.ssrn], ['LinkedIn', s.linkedin],
+  ['X', s.x], ['Email', `mailto:${s.email}`],
+].filter(([, href]) => href);
 ---
-<Base title="Gordon Y. Liao" description="Chief Economist and Head of Research at Circle. Ph.D. Economics, Harvard.">
-  <h1>Layout OK</h1>
+<Base title="Gordon Y. Liao" description={profile.bio_short.slice(0, 155)}>
+  <section class="hero">
+    <img src={profile.headshot} alt="Gordon Y. Liao" width="150" />
+    <div>
+      <h1>Gordon Y. Liao</h1>
+      <p class="role">{profile.role}</p>
+      <p class="bio">{profile.bio_short}</p>
+      <p class="quick-links">{quick.map(([label, href], i) => <>{i > 0 && ' · '}<a href={href}>{label}</a></>)}</p>
+    </div>
+  </section>
+
+  <div class="affil-strip"><span class="lead">AFFILIATIONS&ensp;</span>{profile.affiliations.join(' · ')}</div>
+
+  <section>
+    <div class="section-label">Current focus</div>
+    <p style="max-width: 38rem;">{profile.current_focus}</p>
+  </section>
+
+  <section>
+    <div class="section-label">Selected work</div>
+    {featured.map(p => (
+      <div class="item">
+        <span class="title"><a href={p.links?.journal || p.links?.ssrn || p.links?.pdf}>{p.title}</a></span>
+        {p.journal_tag && <span class="pill-journal">{p.journal_tag}</span>}
+        {p.venue && !p.journal_tag && <span class="coauthors"> — {p.venue}</span>}
+        {p.note && <span class="coauthors"> — {p.note}</span>}
+      </div>
+    ))}
+    <p class="see-all"><a href="/research/">All research →</a></p>
+  </section>
+
+  <section>
+    <div class="section-label">Recent</div>
+    <div class="recent-grid">
+      {latestTalk && <div><div class="k">SPEAKING</div><div class="v">"{latestTalk.title}" — {latestTalk.event} · {formatMonth(latestTalk.date)}</div></div>}
+      {latestPress && <div><div class="k">IN THE PRESS</div><div class="v"><a href={latestPress.url}>{latestPress.headline}</a> — {latestPress.outlet}</div></div>}
+      {latestWriting && <div><div class="k">WRITING</div><div class="v"><a href={latestWriting.url}>{latestWriting.title}</a> — {latestWriting.outlet}</div></div>}
+    </div>
+  </section>
 </Base>
