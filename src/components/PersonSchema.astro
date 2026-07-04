@@ -1,0 +1,20 @@
+---
+import profile from '../data/profile.yaml';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Gordon Y. Liao',
+  url: 'https://gliao.xyz',
+  image: `https://gliao.xyz${profile.headshot}`,
+  jobTitle: 'Chief Economist and Head of Research',
+  worksFor: { '@type': 'Organization', name: 'Circle', url: 'https://www.circle.com' },
+  alumniOf: [
+    { '@type': 'EducationalOrganization', name: 'Harvard University', description: 'Ph.D. and A.M. in Economics' },
+    { '@type': 'EducationalOrganization', name: 'Harvard College', description: 'A.B. in Applied Mathematics' },
+  ],
+  memberOf: profile.affiliations.map(a => ({ '@type': 'Organization', name: a })),
+  sameAs: [profile.social.x, profile.social.linkedin, profile.social.scholar, profile.social.ssrn].filter(Boolean),
+  knowsAbout: ['Stablecoins', 'Decentralized Finance', 'Monetary Policy', 'Tokenization', 'Payment Systems', 'Exchange Rate Determination', 'Financial Stability', 'Blockchain Infrastructure', 'USDC'],
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

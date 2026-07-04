@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import PersonSchema from '../components/PersonSchema.astro';
 import { formatMonth } from '../lib/format.js';
 import profile from '../data/profile.yaml';
 import papers from '../data/papers.yaml';
@@ -19,6 +20,7 @@ const quick = [
 ].filter(([, href]) => href);
 ---
 <Base title="Gordon Y. Liao" description={profile.bio_short.slice(0, 155)}>
+  <PersonSchema />
   <section class="hero">
     <img src={profile.headshot} alt="Gordon Y. Liao" width="150" />
     <div>
