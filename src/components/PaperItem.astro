@@ -1,0 +1,31 @@
+---
+import { formatMonth } from '../lib/format.js';
+const { paper } = Astro.props;
+const l = paper.links ?? {};
+const primary = l.journal || l.ssrn || l.pdf || '';
+const linkRow = [
+  l.ssrn && ['SSRN', l.ssrn],
+  l.journal && ['Journal', l.journal],
+  l.pdf && ['PDF', l.pdf],
+  l.mirror && ['Mirror', l.mirror],
+  l.slides && ['Slides', l.slides],
+  l.video && ['Video', l.video],
+  l.code && ['Code', l.code],
+  l.data && ['Data', l.data],
+].filter(Boolean);
+---
+<div class="item">
+  <span class="title">
+    {primary ? <a href={primary}>{paper.title}</a> : paper.title}
+  </span>
+  {paper.journal_tag && <span class="pill-journal">{paper.journal_tag}</span>}
+  {paper.authors?.length > 0 && <span class="coauthors"> with {paper.authors.join(', ')}</span>}
+  {paper.venue && <span class="coauthors"> — {paper.venue}{paper.status === 'published' ? '' : `, ${formatMonth(paper.date)}`}</span>}
+  {paper.note && <p class="note">{paper.note}</p>}
+  {(linkRow.length > 0 || paper.press?.length > 0) && (
+    <div class="links">
+      {linkRow.map(([label, href], i) => <><a href={href}>{label}</a>{(i < linkRow.length - 1 || paper.press?.length > 0) ? ' · ' : ''}</>)}
+      {paper.press?.length > 0 && <>Press: {paper.press.map((p, i) => <><a href={p.url}>{p.outlet}</a>{i < paper.press.length - 1 ? ', ' : ''}</>)}</>}
+    </div>
+  )}
+</div>

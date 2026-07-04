@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import PaperItem from '../components/PaperItem.astro';
+import papers from '../data/papers.yaml';
+
+const byDate = (a, b) => String(b.date).localeCompare(String(a.date));
+const groups = [
+  ['Working papers', papers.filter(p => p.status === 'working').sort(byDate)],
+  ['Publications', papers.filter(p => p.status === 'published').sort(byDate)],
+  ['Technical reports', papers.filter(p => p.status === 'technical').sort(byDate)],
+  ['Other manuscripts', papers.filter(p => p.status === 'other').sort(byDate)],
+];
+---
+<Base title="Research — Gordon Y. Liao" description="Working papers and publications by Gordon Y. Liao on stablecoins, tokenization, exchange rates, monetary policy, and financial markets.">
+  <h1>Research</h1>
+  {groups.map(([label, list]) => list.length > 0 && (
+    <section>
+      <div class="section-label">{label}</div>
+      {list.map(p => <PaperItem paper={p} />)}
+    </section>
+  ))}
+</Base>
