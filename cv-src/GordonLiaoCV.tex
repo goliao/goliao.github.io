@@ -1,0 +1,161 @@
+% Gordon Y. Liao — Curriculum Vitae
+% Build: pdflatex GordonLiaoCV.tex  (run twice)
+% Deployed copy: ../public/GordonLiaoCV.pdf
+\documentclass[10.5pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+\usepackage[a4paper,margin=1.9cm,bottom=2.3cm]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{inkgray}{HTML}{5A5651}
+\definecolor{rulegray}{HTML}{B8B2A8}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+% Section styling
+\titleformat{\section}{\LARGE\bfseries}{}{0pt}{}[\vspace{-8pt}\textcolor{rulegray}{\rule{\textwidth}{0.6pt}}]
+\titlespacing*{\section}{0pt}{14pt}{8pt}
+\titleformat{\subsection}{\normalsize\scshape\color{inkgray}}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{10pt}{4pt}
+
+% Footer
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\textsc{\color{inkgray}July 2026}}
+\fancyfoot[C]{\footnotesize\textsc{\color{inkgray}Gordon Y. Liao\ \ \textperiodcentered\ \ Curriculum Vitae}}
+\fancyfoot[R]{\footnotesize\textsc{\color{inkgray}\thepage}}
+
+% Experience row: {years}{title}{org} — continuation lines hang past the year column
+\newcommand{\cvrow}[3]{\par\hangindent=2.6cm\hangafter=1\noindent\makebox[2.1cm][r]{\textbf{#1}}\hspace{0.5cm}\textbf{#2}, {\color{inkgray}#3}\par}
+% Honor row
+\newcommand{\honor}[2]{\par\hangindent=2.6cm\hangafter=1\noindent\makebox[2.1cm][r]{\textbf{#1}}\hspace{0.5cm}#2\par}
+% Publication item
+\newenvironment{pubs}{\begin{itemize}[leftmargin=0pt,itemindent=0pt,labelsep=0pt,label={},itemsep=3pt,topsep=2pt]}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+{\fontsize{28}{32}\selectfont Gordon Y.\ Liao}\\[6pt]
+{\small gordon[at]circle.com \ \textbar\ \ \href{https://gliao.xyz}{gliao.xyz} \ \textbar\ \ \href{https://www.linkedin.com/in/gordonyuliao/}{linkedin.com/in/gordonyuliao}}
+\end{center}
+
+\section{Education}
+\textbf{Harvard University} \hfill {\color{inkgray}\itshape Cambridge, MA}\\
+{\scshape Ph.D., A.M., Economics} \hfill {\color{inkgray}\itshape 2013--2017}
+
+\textbf{Harvard University} \hfill {\color{inkgray}\itshape Cambridge, MA}\\
+{\scshape A.B.\ Applied Mathematics} \hfill {\color{inkgray}\itshape 2007--2011}
+
+\section{Professional Experience}
+\cvrow{2022--}{Chief Economist \& Head of Research}{Circle Internet Group (NYSE: CRCL)}
+\cvrow{2022--}{Research Fellow}{Cornell Fintech Initiative}
+\cvrow{2022--}{Co-chair}{National Association for Business Economics Finance Roundtable}
+\cvrow{2022--}{Advisor}{Uniswap Labs}
+\cvrow{2021--2022}{Head of Research}{Uniswap Labs}
+\cvrow{2018--2021}{Senior Economist}{Board of Governors of the Federal Reserve System}
+\cvrow{2020--2021}{Consultant}{Commodity Futures Trading Commission}
+\cvrow{2017--2018}{Partner \& Portfolio Manager}{Cambridge Square Capital}
+\cvrow{2011--2013}{Portfolio Manager}{Harvard Management Company}
+
+\subsection{Affiliations}
+{\color{inkgray}CEPR Research Affiliate \ \textperiodcentered\ \ Member, World Economic Forum Global Future Council}
+
+\subsection{Research Interests}
+{\color{inkgray}Financial Intermediaries, International Finance, Asset Pricing, Digital Currency, Market Microstructure}
+
+\section{Publications}
+\subsection{Published}
+\begin{pubs}
+\item Liao, G.Y.\ and Zhang, T., 2025. ``The Hedging Channel of Exchange Rate Determination.'' \textbf{Review of Financial Studies}, 38(1), pp.\,1--38.
+\item Makridis, C.\ and Liao, G.Y., 2023. ``Democratizing Effects of Digital Ledger Technologies: Implications for Economic Mobility.'' \textbf{Frontiers in Blockchain}, 6.
+\item Barro, R.J.\ and Liao, G.Y., 2021. ``Rare disaster probability and options pricing.'' \textbf{Journal of Financial Economics}, 139(3), pp.\,750--769.
+\item Liao, G.Y., 2020. ``Credit migration and covered interest rate parity.'' \textbf{Journal of Financial Economics}, 138(2), pp.\,504--525.
+\item Greenwood, R., Hanson, S.G.\ and Liao, G.Y., 2018. ``Asset price dynamics in partially segmented markets.'' \textbf{Review of Financial Studies}, 31(9), pp.\,3307--3343.
+\item Sands, P., Liao, G.\ and Ma, Y., 2018. ``Rethinking operational risk capital requirements.'' \textbf{Journal of Financial Regulation}, 4(1), pp.\,1--34.
+\end{pubs}
+
+\subsection{Working Papers}
+\begin{pubs}
+\item ``How do Households Suppress the Price of Tail Risk?'' (with Laurent Calvet, Claire C\'el\'erier, and Boris Vall\'ee), 2025. \emph{Best Conference Paper Prize, Paris December Finance Meeting 2025.}
+\item ``Risk-based Capital for Stable Value Tokens'' (with Dan Fishman and Jeremy Fox-Geen), 2024.
+\item ``What Drives Crypto Asset Prices?'' (with Austin Adams and Markus Ibert), 2024.
+\item ``What Drives Liquidity on Decentralized Exchanges? Evidence from the Uniswap Protocol'' (with Brian Z.\ Zhu, Dingyue Liu, Xin Wan, Ciamac C.\ Moallemi, and Brad Bachu), 2024.
+\item ``Beyond Speculation: Payment Stablecoins for Real-Time Gross Settlements'' (with Thomas Hadeed and Ziming Zeng), 2023. \emph{Best Paper Award, D.C.\ Fintech Week 2023.}
+\item ``On-Chain Foreign Exchange and Cross-Border Payments'' (with Austin Adams, Mary-Catherine Lader, David Puth, and Xin Wan), 2023.
+\item ``Macroprudential Considerations for Tokenized Cash,'' 2022.
+\item ``Stablecoins: Growth Potential and Impact on Banking'' (with John Caramichael), 2022. Federal Reserve IFDP.
+\item ``U.S.\ Dollar Currency Premium in Corporate Bonds'' (with John Caramichael and Gita Gopinath), 2021. IMF Working Paper 2021/185.
+\item ``U.S.\ Banks and Global Liquidity'' (with Ricardo Correa and Wenxin Du), 2020.
+\end{pubs}
+
+\subsection{Technical Reports \& Patents}
+\begin{pubs}
+\item ``AMP: Arc Multi-Proposer Protocol with Bounded Inclusion Guarantees'' (with Daniel Cason, Sergio Mena, Nenad Milo\v{s}evi\'c, Adi Seredinschi, Alessandro Sforzin, Jo\~ao Sousa, and Preston Vander Vos), arXiv, 2026.
+\item ``Circle's Post-Quantum Security Roadmap: Securing Blockchains, Smart Contracts, and Digital Assets for the Quantum Era'' (with Mira Belenkiy, Duc V.\ Le, Vipin Singh Sehrawat, Dragos Rotaru, Sergey Gorbunov, Milap Sheth, Jay Logelin, Anthony De Abreu, and Dan Boneh), 2026.
+\item ``Arc: An Open Layer-1 Blockchain Purpose-Built for Stablecoin Finance'' (with Rachel Mayer, Adrian Soghoian, Sanket Jain, and Erik Tierney), litepaper, 2025.
+\item ``Transaction Proximity: A Graph-Based Approach to Blockchain Fraud Prevention'' (with Ziming Zeng, Mira Belenkiy, and Jacob Hirshman), arXiv, 2025.
+\item U.S.\ Patent 12,430,638: ``Securely Embedding Messages in Transaction Records in Blockchain Systems'' (with Mira Belenkiy), granted September 2025.
+\end{pubs}
+
+\subsection{Non-refereed Manuscripts}
+\begin{pubs}
+\item ``The Dominance of Uniswap v3 Liquidity'' (with Dan Robinson), 2022.
+\item ``Uniswap Returns for Passive Liquidity Providers'' (with Austin Adams), 2022.
+\item ``Average Marginal Income Tax Rates in New Zealand, 1907--2009'' (with Debasis Bandyopadhyay, Robert J.\ Barro, Jeremy Couchman, Norman Gemmell, and Fiona McAlister), 2012.
+\end{pubs}
+
+\subsection{Select Op-eds \& Commentary}
+\begin{pubs}
+\item ``Money Tokens: The Digital Revolution Reshaping Money'' (with Dante Disparte). October 2024. Bretton Woods Committee.
+\item ``Banks Dominate Payment Systems.\ The Risks Are All Too Clear.'' March 26, 2023. Barron's.
+\item ``Payment versus trading stablecoins.'' March 25, 2023. VoxEU.
+\item ``International cooperation and the era of digital currency growth.'' May 2021. World Economic Forum.
+\item ``Currency hedging, exchange rate movement, and dollar swap line usage during the Covid-19 pandemic.'' October 1, 2020. VoxEU.
+\end{pubs}
+
+\section{Honors, Awards}
+\honor{2025}{\textbf{Best Conference Paper Prize}, Paris December Finance Meeting}
+\honor{2023}{\textbf{Best Paper Award}, D.C.\ Fintech Week}
+\honor{2016}{\textbf{Best Finance Ph.D.\ Award}, 13th Corporate Finance Conference, Washington University in St.\ Louis}
+\honor{2016}{\textbf{Bradley Foundation Fellowship}}
+\honor{2013--2017}{\textbf{Harvard Business School Doctoral Fellowship}}
+\honor{2011}{\textbf{Phi Beta Kappa}}
+\honor{2011}{\textbf{High Honors in Field}, Harvard College}
+\honor{2010}{\textbf{AmeriCorps Student Leader in Service}}
+\honor{2009}{\textbf{John Harvard Scholar}, Harvard College}
+\honor{2008}{\textbf{Harvard University Human Rights Summer Fellowship}}
+\honor{2008}{\textbf{Weissman Fellowship}, Harvard College}
+
+\section{Selected Presentations}
+{\color{inkgray}
+ETHDenver (2026, 2025), Stanford Blockchain Alumni Summit (2026 Denver, 2024 NYC), NABE Economic Policy Conference (2025, 2023), CBER Forum (2025, 2022), Berkeley RDI Summit (2025, 2023), Institute for Global Economics, Seoul (2025), American Banker Payments Forum (2025), Western Finance Association (2024), Harvard PIFS (2024), Georgetown Law IIEL (2024), Japan FinTech Festival (2024), Point Zero Forum (2024), OCC Symposium on the Tokenization of Real-World Assets and Liabilities (2024), Federal Reserve Board (2024, 2018), D.C.\ Fintech Week (2023), Bank of Canada (2023, 2022), Bank for International Settlements (2023, 2021, 2017), American Enterprise Institute (2023), IMF-MCM (2023), Banque de France (2023), Harvard Blockchain Conference (2023), Davos WEF Annual Meeting week (2023), Brookings Institution (2022), University of Hawaii (2022), University of Washington Foster (2021), UC Berkeley Econ and Haas (2021), European Finance Association (2021), NBER SI IFM and IAP (2021), SF FRB (2021), Toronto Rotman (2020), LSE Systemic Risk Centre (2020), U.S.\ Department of the Treasury (2020), University of Maryland (2020), CFTC (2020), Bank Policy Institute (2020), UNC Junior Finance Round Table (2020), NBER SI MEFM/AP (2020), AEA (2020), International Macro Finance Conference (2019), SNB-FRB-BIS Conference on Global Risk (2019), UCLA (2019), Stanford SITE (2019), Young Scholars Finance Consortium (2019), Midwest Finance Conference (2019), Oxford (2018), LSE (2018), Econometric Society Winter Meeting (2018), IMF RESMF-FRBIF workshop (2018), West Coast International Finance Conference (2018), UC Davis (2018), Stanford (2018), SAFE Asset Pricing Workshop (2018), AQR (2018), BlackRock (2018)
+}
+
+\section{Discussions}
+\begin{pubs}
+\item ``Anatomy of a Run: The Terra Luna Crash,'' Western Finance Association, 2024
+\item ``Stablecoins and Short-term Funding Markets,'' SNB-CIF Conference on Cryptoassets and Financial Innovation, 2023
+\item E.\ Faia, J.\ Salomao, and A.\ Ventula Veghazy, ``Granular Investors and International Bond Prices: Scarcity Induced Safety,'' NBER IFM Spring, 2022
+\item R.\ Kerkre and M.\ Lenel, ``Dollar Demand and International Risk Sharing,'' American Economic Association, 2021
+\item N.\ Boyarchenko, T.\ Eisenbach, P.\ Gupta, O.\ Shachar, and P.\ Van Tassel, ``Bank-Intermediated Arbitrage,'' WFA 2020
+\item S.\ Bahaj and R.\ Reis, ``Central Bank Swap Lines: Evidence on the Effects of the Lender of Last Resort,'' Western Finance Association, 2019
+\item W.\ Du, B.\ H\'ebert, and A.\ Huber, ``Are Intermediary Constraints Priced?,'' NBER IFM Fall, 2019
+\end{pubs}
+
+\section{Teaching Experience}
+\honor{Spring 2016}{\textbf{Behavioral Finance, Ph.D.\ level}, Teaching Fellow}
+\honor{Fall 2015}{\textbf{HBS Case Method Teaching Training}, Participant}
+\honor{Fall 2015}{\textbf{Applied Quantitative Finance}, Teaching Fellow}
+
+\section{Referee}
+{\color{inkgray}Quarterly Journal of Economics, Review of Financial Studies, Journal of International Economics, Journal of Financial Economics, International Finance, Journal of International Money and Finance, Management Science}
+
+\end{document}

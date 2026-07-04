@@ -5,3 +5,6 @@ docs/.DS_Store
 node_modules/
 dist/
 .astro/
+cv-src/*.aux
+cv-src/*.log
+cv-src/*.out
