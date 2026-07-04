@@ -37,6 +37,12 @@
   date: "2023-03"
   kind: explainer
 
+- outlet: "World Economic Forum"
+  title: "International Cooperation and the Era of Digital Currency Growth"
+  url: "https://www.weforum.org/stories/2021/05/international-cooperation-and-the-era-of-digital-currency-growth/"
+  date: "2021-05"
+  kind: column
+
 - outlet: "VoxEU"
   title: "Currency Hedging, Exchange Rate Movement, and Dollar Swap Line Usage During COVID-19"
   url: "https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19"

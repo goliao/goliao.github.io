@@ -286,6 +286,19 @@
   featured: false
   note: "Litepaper: USDC as native gas, deterministic sub-second settlement finality, and opt-in privacy."
 
+- title: "Securely Embedding Messages in Transaction Records in Blockchain Systems"
+  authors: [Mira Belenkiy]
+  date: "2025-09"
+  status: technical
+  venue: "U.S. Patent 12,430,638"
+  journal_tag: ""
+  links:
+    pdf: "https://patents.google.com/patent/US12430638B1/en"
+  press: []
+  topics: [infrastructure]
+  featured: false
+  note: "Granted September 2025; assigned to Circle."
+
 - title: "Transaction Proximity: A Graph-Based Approach to Blockchain Fraud Prevention"
   authors: [Ziming Zeng, Mira Belenkiy, Jacob Hirshman]
   date: "2025-05"
