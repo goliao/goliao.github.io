@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatMonth } from '../lib/format.js';
+import profile from '../data/profile.yaml';
+import press from '../data/press.yaml';
+
+const byDate = (a, b) => String(b.date).localeCompare(String(a.date));
+const sorted = [...press].sort(byDate);
+const years = [...new Set(sorted.map(p => String(p.date).slice(0, 4)))];
+---
+<Base title="Media — Gordon Y. Liao" description="Press mentions and media appearances. Expertise: stablecoins, digital assets, monetary policy, payments. Contact for journalists.">
+  <h1>Media</h1>
+  <div class="section-label">Commentary areas</div>
+  <p style="max-width: 38rem;">{profile.expertise.join(' · ')}</p>
+  <p class="see-all">Media inquiries: <a href={`mailto:${profile.social.email}`}>{profile.social.email}</a> · <a href={profile.headshot} download>Download headshot</a></p>
+
+  {years.map(y => (
+    <section>
+      <div class="section-label">{y}</div>
+      {sorted.filter(p => String(p.date).startsWith(y)).map(p => (
+        <div class="item">
+          <span class="title"><a href={p.url}>{p.headline}</a></span>
+          <span class="coauthors"> — {p.outlet}, {formatMonth(p.date)}</span>
+        </div>
+      ))}
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatMonth } from '../lib/format.js';
+import writing from '../data/writing.yaml';
+
+const byDate = (a, b) => String(b.date).localeCompare(String(a.date));
+const sorted = [...writing].sort(byDate);
+---
+<Base title="Writing — Gordon Y. Liao" description="Op-eds, columns, and commentary by Gordon Y. Liao — Barron's, VoxEU, Bretton Woods Committee — on stablecoins, digital assets, and monetary policy.">
+  <h1>Writing</h1>
+  <p style="max-width: 38rem;">Op-eds, columns, and commentary. Academic papers live under <a href="/research/">Research</a>.</p>
+  {sorted.map(w => (
+    <div class="item">
+      <span class="title"><a href={w.url}>{w.title}</a></span>
+      <span class="coauthors"> — {w.outlet}, {formatMonth(w.date)}</span>
+    </div>
+  ))}
+</Base>

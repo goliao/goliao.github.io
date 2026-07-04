@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import profile from '../data/profile.yaml';
+---
+<Base title="CV — Gordon Y. Liao" description="Curriculum vitae and short bio of Gordon Y. Liao — Chief Economist and Head of Research at Circle, Harvard Ph.D. economist.">
+  <h1>Curriculum Vitae</h1>
+  <p><a href="/GordonLiaoCV.pdf">Download CV (PDF)</a></p>
+  <div class="section-label">Short bio</div>
+  <p style="max-width: 38rem;">{profile.bio_long}</p>
+</Base>
