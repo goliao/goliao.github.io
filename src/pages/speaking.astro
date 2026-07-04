@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatMonth } from '../lib/format.js';
+import profile from '../data/profile.yaml';
+import talks from '../data/talks.yaml';
+
+const byDate = (a, b) => String(b.date).localeCompare(String(a.date));
+const sorted = [...talks].sort(byDate);
+const KIND = { keynote: 'Keynote', panel: 'Panel', invited: 'Invited talk', discussion: 'Discussion' };
+---
+<Base title="Speaking — Gordon Y. Liao" description="Talk topics and selected speaking engagements — stablecoins, digital assets, monetary policy. Booking information for conferences and media.">
+  <h1>Speaking</h1>
+  <p style="max-width: 38rem;">{profile.bio_short}</p>
+
+  <div class="section-label">Talk topics</div>
+  {profile.speaking_topics.map(t => (
+    <div class="item">
+      <span class="title">{t.title}</span>
+      <p class="note">{t.blurb}</p>
+    </div>
+  ))}
+
+  <div class="section-label">Selected engagements</div>
+  {sorted.map(t => (
+    <div class="item">
+      <span class="title">{t.event}</span>
+      <span class="coauthors"> · {formatMonth(t.date)}{t.location ? ` · ${t.location}` : ''}</span>
+      <p class="note">{KIND[t.kind] ?? t.kind}: “{t.title}”</p>
+      {(t.links?.video || t.links?.slides) && (
+        <div class="links">
+          {t.links.video && <a href={t.links.video}>Video</a>}{t.links.video && t.links.slides && ' · '}
+          {t.links.slides && <a href={t.links.slides}>Slides</a>}
+        </div>
+      )}
+    </div>
+  ))}
+
+  <div class="section-label">Booking</div>
+  <p>For speaking inquiries: <a href={`mailto:${profile.social.email}`}>{profile.social.email}</a>. Print this page for a one-page speaker sheet.</p>
+</Base>
