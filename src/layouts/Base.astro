@@ -1,0 +1,60 @@
+---
+import '@fontsource-variable/source-serif-4';
+import '../styles/global.css';
+
+interface Props { title: string; description: string; ogImage?: string; }
+const { title, description, ogImage = '/img/headshot_GL_4ss.jpg' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const year = new Date().getFullYear();
+const path = Astro.url.pathname;
+const nav = [
+  ['Research', '/research/'],
+  ['Speaking', '/speaking/'],
+  ['Media', '/media/'],
+  ['Writing', '/writing/'],
+  ['CV', '/cv/'],
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="google-site-verification" content="4DbUCUEQqZAgO5WOoKRudfma9z2KIP0AfnfHa1_BClM" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(ogImage, Astro.site)} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@gordonliao" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="site-nav">
+        <a class="brand" href="/">GORDON Y. LIAO</a>
+        <div class="links">
+          {nav.map(([label, href]) => (
+            <a href={href} aria-current={path === href ? 'page' : undefined}>{label}</a>
+          ))}
+        </div>
+      </nav>
+      <main><slot /></main>
+      <footer class="site-footer">
+        <span>© {year} Gordon Y. Liao</span>
+        <a href="mailto:gliao@post.harvard.edu">gliao@post.harvard.edu</a>
+      </footer>
+    </div>
+    <!-- Statcounter (carried over from legacy site) -->
+    <script type="text/javascript">
+      var sc_project=12395335;
+      var sc_invisible=1;
+      var sc_security="315509ac";
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript><div class="statcounter"><a title="free web stats" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12395335/0/315509ac/1/" alt="free web stats"></a></div></noscript>
+  </body>
+</html>
