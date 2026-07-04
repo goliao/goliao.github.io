@@ -1,13 +1,18 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const DIST = fileURLToPath(new URL('../dist', import.meta.url));
 
 const REQUIRED_ASSETS = [
-  'GordonLiaoCV.pdf', 'google149ed543bf9df5bc.html', 'CNAME',
+  'GordonLiaoCV.pdf', 'google149ed543bf9df5bc.html', 'CNAME', 'robots.txt',
   'data/spx_disaster_prob_march2021update.csv',
   'papers/CLVProject_WP_v5.pdf', 'papers/CLVProject_WP_v8.pdf',
   'papers/CreditCIP_JFE.pdf', 'papers/HedgingChannelofExchangeRate_Latest.pdf',
   'papers/Liao_OCC_Tokenization_Confernece.pdf', 'papers/On-Chain_FX_BOC_JUN23.pdf',
   'papers/US_Banks_Global_Liquidity.pdf',
   'papers/arc_litepaper_2025.pdf', 'papers/circle_quantum_roadmap.pdf',
+  'papers/HouseholdsTailRisk_WP.pdf',
   'discussion/AI_and_finance_PIFS_2024_June.pdf',
   'discussion/CooperativeAI_and_Decentralized_Trust.pdf',
   'discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf',
@@ -23,12 +28,36 @@ const REQUIRED_PAGES = [
   'sitemap-index.xml',
 ];
 
-let missing = [];
+let failures = [];
 for (const p of [...REQUIRED_ASSETS, ...REQUIRED_PAGES]) {
-  if (!existsSync(new URL(`../dist/${p}`, import.meta.url))) missing.push(p);
+  if (!existsSync(join(DIST, p))) failures.push(`missing: ${p}`);
 }
-if (missing.length) {
-  console.error('MISSING from dist/:\n' + missing.join('\n'));
+
+// crawl internal links in every built HTML file
+function* htmlFiles(dir) {
+  for (const e of readdirSync(dir)) {
+    const full = join(dir, e);
+    if (statSync(full).isDirectory()) yield* htmlFiles(full);
+    else if (e.endsWith('.html')) yield full;
+  }
+}
+for (const file of htmlFiles(DIST)) {
+  const html = readFileSync(file, 'utf8');
+  for (const m of html.matchAll(/(?:href|src)="(\/[^"#?]*)/g)) {
+    const target = decodeURIComponent(m[1]);
+    const candidates = [
+      join(DIST, target),
+      join(DIST, target, 'index.html'),
+      join(DIST, target.replace(/\/$/, '') + '.html'),
+    ];
+    if (!candidates.some(c => existsSync(c))) {
+      failures.push(`broken internal link ${target} in ${file.slice(DIST.length)}`);
+    }
+  }
+}
+
+if (failures.length) {
+  console.error(failures.join('\n'));
   process.exit(1);
 }
-console.log(`parity OK: ${REQUIRED_ASSETS.length + REQUIRED_PAGES.length} paths present`);
+console.log('check-dist OK: parity + internal links');
