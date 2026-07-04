@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import PaperItem from '../components/PaperItem.astro';
+import papers from '../data/papers.yaml';
+
+const byDate = (a, b) => String(b.date).localeCompare(String(a.date));
+const has = (p, ...ts) => (p.topics ?? []).some(t => ts.includes(t));
+const groups = [
+  ['Payment stablecoins & tokenised money', papers.filter(p => has(p, 'stablecoins', 'tokenization')).sort(byDate)],
+  ['Blockchain infrastructure', papers.filter(p => has(p, 'arc', 'quantum', 'infrastructure') && !has(p, 'stablecoins', 'tokenization')).sort(byDate)],
+  ['Automated market makers & on-chain FX', papers.filter(p => has(p, 'amm')).sort(byDate)],
+];
+---
+<Base title="Tokenisation — Gordon Y. Liao" description="Gordon Y. Liao's research on payment stablecoins, tokenized money, DeFi, and blockchain infrastructure.">
+  <h1>Tokenisation</h1>
+  <p>Research on stablecoins, tokenised money, and the market infrastructure of digital assets — auto-collected from <a href="/research/">Research</a> by topic.</p>
+  {groups.map(([label, list]) => list.length > 0 && (
+    <section>
+      <div class="section-label">{label}</div>
+      {list.map(p => <PaperItem paper={p} />)}
+    </section>
+  ))}
+</Base>
