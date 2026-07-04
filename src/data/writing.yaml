@@ -1,0 +1,44 @@
+# Op-eds, columns, and commentary — newest first.
+# kind: op-ed | column | explainer
+
+- outlet: "Bretton Woods Committee"
+  title: "Money Tokens: The Digital Revolution Reshaping Money"
+  url: "https://www.brettonwoods.org/article/money-tokens-the-digital-revolution-reshaping-money"
+  date: "2024-10"
+  kind: column
+
+- outlet: "Circle"
+  title: "How to Preserve the Singleness of Money for Tokenised Forms of Money?"
+  url: "/discussion/Singleness_of_money.pdf"
+  date: "2023-06"
+  kind: explainer
+
+- outlet: "Circle"
+  title: "TradFi, CeFi, DeFi: A Balance Sheet Journey Through Financial Alchemy"
+  url: "https://www.circle.com/blog/tradfi-cefi-defi-a-balance-sheet-journey-through-financial-alchemy"
+  date: "2023-04"
+  kind: explainer
+
+- outlet: "Barron's"
+  title: "Banks Dominate Payment Systems. The Risks Are All Too Clear."
+  url: "https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659"
+  date: "2023-03"
+  kind: op-ed
+
+- outlet: "CEPR VoxEU"
+  title: "Payment versus Trading Stablecoins"
+  url: "https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins"
+  date: "2023-03"
+  kind: column
+
+- outlet: "Circle"
+  title: "Digital Assets and the Future of Money"
+  url: "https://www.circle.com/blog/digital-assets-and-the-future-of-money"
+  date: "2023-03"
+  kind: explainer
+
+- outlet: "VoxEU"
+  title: "Currency Hedging, Exchange Rate Movement, and Dollar Swap Line Usage During COVID-19"
+  url: "https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19"
+  date: "2020-07"
+  kind: column

@@ -1,0 +1,178 @@
+# Selected speaking engagements — newest first.
+# kind: keynote | panel | invited | discussion
+# dates: quoted "YYYY-MM" or "YYYY" (year-only when the month isn't verified)
+
+- event: "ETHDenver"
+  title: "Making Onchain Agents Useful"
+  date: "2026-03"
+  location: "Denver, CO"
+  kind: invited
+  links: { video: "https://www.youtube.com/watch?v=UJOMec-6MFQ" }
+
+- event: "Stanford Blockchain Alumni Summit (BASS) Denver"
+  title: "Quantum Risk in Blockchain and Crypto"
+  date: "2026-02"
+  location: "Denver, CO"
+  kind: invited
+  links: { video: "https://youtu.be/2btTirAJgp4" }
+
+- event: "Berkeley RDI DeAI Summit"
+  title: "Onchain Agents and the Boundaries of the Firm"
+  date: "2025-08"
+  location: "Berkeley, CA"
+  kind: invited
+  links: { video: "https://www.youtube.com/watch?v=c1_OP8DHjIs" }
+
+- event: "Institute for Global Economics (IGE) Global Economy Webinar"
+  title: "The Rise of Stablecoins: Rewiring the Global Financial Grid"
+  date: "2025-08"
+  location: "Seoul (virtual)"
+  kind: keynote
+  links: { video: "https://www.youtube.com/watch?v=hUFooR5q81k" }
+
+- event: "CBER Forum"
+  title: "Cryptoasset Pricing"
+  date: "2025-05"
+  location: ""
+  kind: invited
+  links: { video: "https://www.youtube.com/watch?v=BaWNIUNE4Xg" }
+
+- event: "American Banker Payments Forum"
+  title: "On-stage interview with Nik De"
+  date: "2025-03"
+  location: ""
+  kind: invited
+  links: {}
+
+- event: "ETHDenver"
+  title: "Stablecoins on Unstable Chains"
+  date: "2025-02"
+  location: "Denver, CO"
+  kind: invited
+  links: { video: "https://www.youtube.com/watch?v=b--S5GUgbDA" }
+
+- event: "NABE Economic Policy Conference"
+  title: "Crypto and Tokenization Policy in a New Era — with Hester Peirce (SEC) and Eswar Prasad"
+  date: "2025"
+  location: "Washington, D.C."
+  kind: panel
+  links: {}
+
+- event: "Stable Summit"
+  title: "Message Embedding for On-Chain Payments"
+  date: "2025"
+  location: ""
+  kind: invited
+  links: { video: "https://www.youtube.com/watch?v=dXBVCOMuQ3Y" }
+
+- event: "Uniday (Uniswap Foundation)"
+  title: "Scaling DeFi for Global Finance"
+  date: "2025"
+  location: ""
+  kind: invited
+  links: { video: "https://www.youtube.com/watch?v=eMEXy2KlUm0" }
+
+- event: "Western Finance Association (WFA) Annual Meeting"
+  title: "Anatomy of a Run: The Terra Luna Crash"
+  date: "2024-07"
+  location: ""
+  kind: discussion
+  links: { slides: "/discussion/Discussion_Terra_Luna_Crash.pdf" }
+
+- event: "Harvard Program on International Financial Systems (PIFS)"
+  title: "AI in the Future of Finance"
+  date: "2024-06"
+  location: "Cambridge, MA"
+  kind: invited
+  links: { slides: "/discussion/AI_and_finance_PIFS_2024_June.pdf" }
+
+- event: "Japan FinTech Festival"
+  title: "Moving Money at the Speed of the Internet"
+  date: "2024-03"
+  location: "Tokyo"
+  kind: panel
+  links: {}
+
+- event: "OCC Symposium on the Tokenization of Real-World Assets and Liabilities"
+  title: "Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements"
+  date: "2024-02"
+  location: "Washington, D.C."
+  kind: invited
+  links: { slides: "/papers/Liao_OCC_Tokenization_Confernece.pdf" }
+
+- event: "Georgetown Law — Institute of International Economic Law"
+  title: "Payment Stablecoins Colloquium — fireside with Prof. Chris Brummer"
+  date: "2024-02"
+  location: "Washington, D.C."
+  kind: invited
+  links: {}
+
+- event: "Point Zero Forum"
+  title: "FX in a World of Digital Money — roundtable with the IMF and MAS"
+  date: "2024"
+  location: "Zurich"
+  kind: panel
+  links: {}
+
+- event: "Stanford Blockchain Alumni Summit (BASS) NYC"
+  title: "Enabling Liquidity in LSTs and RWAs"
+  date: "2024"
+  location: "New York, NY"
+  kind: invited
+  links: { video: "https://www.youtube.com/watch?v=ljMVyKt2AEE" }
+
+- event: "D.C. Fintech Week"
+  title: "Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements — Best Paper Award"
+  date: "2023-10"
+  location: "Washington, D.C."
+  kind: invited
+  links: { video: "https://youtu.be/Iit75lVVzIk" }
+
+- event: "Berkeley RDI Summit"
+  title: "Cooperative AI and Decentralized Trust"
+  date: "2023-08"
+  location: "Berkeley, CA"
+  kind: invited
+  links: { slides: "/discussion/CooperativeAI_and_Decentralized_Trust.pdf" }
+
+- event: "Bank of Canada — Networks in Modern Financial and Payments Systems Conference"
+  title: "On-Chain Foreign Exchange and Cross-Border Payments"
+  date: "2023-06"
+  location: "Ottawa"
+  kind: invited
+  links: { slides: "/papers/On-Chain_FX_BOC_JUN23.pdf" }
+
+- event: "SNB-CIF Conference on Cryptoassets and Financial Innovation"
+  title: "Stablecoins and Short-term Funding Markets"
+  date: "2023"
+  location: "Zurich"
+  kind: discussion
+  links: { slides: "/discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf" }
+
+- event: "Harvard Blockchain Conference"
+  title: "TradFi, CeFi, DeFi: A Balance Sheet Journey Through Financial Alchemy"
+  date: "2023-04"
+  location: "Cambridge, MA"
+  kind: keynote
+  links: {}
+
+- event: "NABE Economic Policy Conference"
+  title: "Regulating Digital Assets and Payment Stablecoins — with Tobias Adrian (IMF) and Nellie Liang (U.S. Treasury)"
+  date: "2023-03"
+  location: "Washington, D.C."
+  kind: panel
+  links: {}
+
+- event: "Davos — World Economic Forum Annual Meeting week"
+  title: "The Next Evolution of Money — fireside with Niall Ferguson"
+  date: "2023-01"
+  location: "Davos"
+  kind: invited
+  links: { video: "https://youtu.be/b2YXoSuJp2Q" }
+
+- event: "Brookings Institution"
+  title: "Digital Asset Regulation: The Prudential Perspective"
+  date: "2022-10"
+  location: "Washington, D.C."
+  kind: panel
+  links: {}
