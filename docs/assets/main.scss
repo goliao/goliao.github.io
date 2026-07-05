@@ -1,0 +1,12 @@
+---
+---
+@charset "utf-8";
+// Variable overrides (defined before @import so !default in minima yields to these)
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif !default;
+$text-color:       #1a2332 !default;
+$background-color: #ffffff !default;
+$brand-color:      #06b6d4 !default;
+$grey-color-dark:  #0d2137 !default;
+$content-width:    860px !default;
+@import "minima";
+@import "minima/custom";

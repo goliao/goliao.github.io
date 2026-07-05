@@ -2,6 +2,7 @@
 layout: page
 title: "Research"
 permalink: /research/
+description: "Working papers and publications by Gordon Y. Liao on stablecoins, DeFi, exchange rates, monetary policy, and financial markets."
 ---
 
 <!-- Papers completed during my 4 years of Ph.D. and 2 years as an economist at the Fed
@@ -18,7 +19,7 @@ permalink: /research/
 
 * **[Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859)**
    joint with Thomas Hadeed and Ziming Zeng
-   - [Slides](../papers/Liao_OCC_Tokenization_Confernece.pdf), February 2024, OCC Symposium on the Tokenization of Real-World Assets and Liabilities 
+   - [Slides](../papers/Liao_OCC_Tokenization_Confernece.pdf), February 2024, OCC Symposium on the Tokenization of Real-World Assets and Liabilities
    - [Video highlights](https://youtu.be/Iit75lVVzIk) from D.C. Fintech Week Best Paper Award 2023
 
 * **[On-Chain Foreign Exchange and Cross-Border Payments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328948)**
@@ -56,26 +57,26 @@ permalink: /research/
 
 {:start="5"}
 
-* **[The Hedging Channel of Exchange Rate Determination](../papers/HedgingChannelofExchangeRate_Latest.pdf)**, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
+* **[The Hedging Channel of Exchange Rate Determination](../papers/HedgingChannelofExchangeRate_Latest.pdf)** <span class="journal-tag">RFS</span>, joint with [Tony Zhang](https://sites.google.com/view/tzhang0/home?authuser=0)
 
     We show that currency hedging links external imbalances to exchange rate movements, cross-currency basis, and currency option skew.  
     - **Accepted at Review of Financial Studies**
     - [VOXeu](https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19)
    <!-- SR-SV[https://www.sr-sv.com/external-imbalances-and-fx-returns/] -->
 
-* **[Rare Disaster Probability and Options-Pricing](https://oconnell.fas.harvard.edu/files/gliao/files/rarediasteroptions.pdf)**, joint with [Robert Barro](https://scholar.harvard.edu/barro/home)
+* **[Rare Disaster Probability and Options-Pricing](https://oconnell.fas.harvard.edu/files/gliao/files/rarediasteroptions.pdf)** <span class="journal-tag">JFE 2020</span>, joint with [Robert Barro](https://scholar.harvard.edu/barro/home)
     - Published version: **[Journal of Financial Economics, 2020](https://doi.org/10.1016/j.jfineco.2020.10.001)**
     - Data: [Disaster probability time series](https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0); [Updated (March 2021) U.S. disaster probabilities](data/spx_disaster_prob_march2021update.csv)
     <!-- <p>&nbsp;</p> -->
 
 
-* **[Credit Migration and Covered Interest Rate Parity](papers/CreditCIP_JFE.pdf)**
+* **[Credit Migration and Covered Interest Rate Parity](papers/CreditCIP_JFE.pdf)** <span class="journal-tag">JFE 2020</span>
     - Published version: **[Journal of Financial Economics, 2020](https://doi.org/10.1016/j.jfineco.2020.06.002)**
     - Data: [Corporate Basis and Residualized Credit Spreads](http://bit.ly/CreditCIPData)
     - [slides (BIS symposium on CIP May 2017)](https://www.bis.org/events/bissymposium0517/symposium0517_12_pres.pdf)
     - Press: [Bloomberg](https://www.bloomberg.com/opinion/articles/2016-10-27/commissions-and-chatbots), [John Cochrane's Blog](https://johnhcochrane.blogspot.com/2017/03/covered-interest-parity.html)
     <!-- <p>&nbsp;</p> -->
-* **[Asset Price Dynamics in Partially Segmented Markets](https://www.hbs.edu/ris/Publication%20Files/Asset%20Price%20Dynamics%20in%20Partially%20Segmented%20Markets_8aa188d2-3cf0-4190-9860-017aff413c6a.pdf)**, joint with [Robin Greenwood](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446) and [Sam Hanson](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=333598)
+* **[Asset Price Dynamics in Partially Segmented Markets](https://www.hbs.edu/ris/Publication%20Files/Asset%20Price%20Dynamics%20in%20Partially%20Segmented%20Markets_8aa188d2-3cf0-4190-9860-017aff413c6a.pdf)** <span class="journal-tag">RFS 2018</span>, joint with [Robin Greenwood](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=136446) and [Sam Hanson](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=333598)
     - Published version: **[Review of Financial Studies, 2018](https://doi.org/10.1093/rfs/hhy048)**
     - [Code](https://github.com/goliao/GHL2018RFS)
 

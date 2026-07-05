@@ -2,6 +2,7 @@
 layout: page
 title: "Tokenisation"
 permalink: /tokenisation/
+description: "Gordon Y. Liao's research on payment stablecoins, tokenized money, DeFi, and automated market makers."
 ---
 
 <!-- Papers completed during my 4 years of Ph.D. and 2 years as an economist at the Fed
