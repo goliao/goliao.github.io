@@ -4,50 +4,56 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is a Jekyll-based personal academic/professional website for Gordon Y. Liao, deployed via GitHub Pages to https://gliao.xyz. All web source files live in the `docs/` directory.
+This is the Astro-based personal site for Gordon Y. Liao, deployed to https://gliao.xyz via GitHub Actions → GitHub Pages. The site is fully static (zero client-side JavaScript except the Statcounter analytics snippet) and data-driven: all mutable content lives in YAML files.
 
 ## Commands
 
-All commands must be run from the `docs/` directory:
-
 ```bash
-cd docs
-
 # Install dependencies
-bundle install
+npm install
 
-# Local development server (available at http://localhost:4000)
-bundle exec jekyll serve
+# Local development server (http://localhost:4321)
+npm run dev
 
-# Build static site
-bundle exec jekyll build
+# Build static site to dist/
+npm run build
+
+# Serve the built dist/ (what production serves)
+npm run preview
+
+# Verify: URL parity + internal links over dist/ (run after build)
+node scripts/check-dist.mjs
+
+# Verify: every external URL in the data files resolves
+node scripts/check-urls.mjs src/data/*.yaml
 ```
-
-Note: `_config.yml` changes require restarting the dev server — live reload does not apply to config changes.
 
 ## Site Structure
 
-- `docs/_config.yml` — site settings, navigation order (`header_pages`), plugins
-- `docs/index.markdown` — homepage (bio, education, links)
-- `docs/research.md` — publications and working papers list
-- `docs/academicCV.md` — CV page
-- `docs/tokenisation_defi.md` — topic-specific page
-- `docs/bio.md` — short bio
-- `docs/papers/` — PDF files for papers and slides
-- `docs/discussion/` — PDF files for discussion papers
-- `docs/data/` — data files (CSV)
-- `docs/img/` — images including headshots
-- `docs/_layouts/` — custom layout overrides (default, home, page, post)
-- `docs/_includes/` — custom includes (header, footer, custom-head)
+- `src/data/*.yaml` — **all content lives here**; routine updates only touch these:
+  - `papers.yaml` — research (status: working | published | technical | other; topic tags drive `/tokenisation/`; `featured: true` on exactly 4 papers drives homepage Selected Work)
+  - `talks.yaml` — speaking engagements (kind: keynote | panel | invited | discussion)
+  - `press.yaml` — media & podcast appearances
+  - `writing.yaml` — op-eds, columns, explainers
+  - `profile.yaml` — bios, affiliations, expertise, speaking topics, social links
+- `src/pages/` — one `.astro` file per page (index, research, speaking, media, writing, cv, tokenisation, 404)
+- `src/layouts/Base.astro` — shared head/nav/footer; navigation is hardcoded here
+- `src/components/` — `PaperItem.astro` (paper rendering), `PersonSchema.astro` (JSON-LD)
+- `src/styles/global.css` — design tokens ("Refined Academic": paper #FFFDF9, ink #1C1A17, bronze #8A6D3B) + print stylesheet for the speaking one-sheet
+- `public/` — static assets served at their exact paths: `papers/`, `discussion/`, `data/`, `img/`, `GordonLiaoCV.pdf`, `CNAME`
+- `cv-src/GordonLiaoCV.tex` — LaTeX CV source; build with `pdflatex` (2 passes) and copy the PDF to `public/GordonLiaoCV.pdf`
+- `.github/workflows/deploy.yml` — builds and deploys on every push to `master`
 
 ## Key Conventions
 
-**Navigation:** Pages shown in the header are controlled by `header_pages` in `_config.yml`. To add a new page to navigation, add its filename to that list.
+**Adding content:** "Add this paper/talk/press hit" = add one YAML block to the matching data file. Homepage Recent strip, topic views, and page lists update automatically at build.
 
-**Theme:** Uses the `minima` theme with custom layout overrides in `_layouts/`. The header template hides the site title and shows only navigation links.
+**YAML dates:** always quoted strings — `"YYYY-MM"` or `"YYYY"` (unquoted dates get coerced to Date objects by the YAML parser and break sorting).
 
-**Analytics:** Statcounter tracking code is embedded directly in `docs/_layouts/default.html`.
+**URL parity:** never move or rename anything under `public/papers/`, `public/discussion/`, `public/data/`, or `GordonLiaoCV.pdf` — external sites and search results link to those exact paths. `scripts/check-dist.mjs` enforces the required list; add new assets to it.
 
-**Linking to local PDFs:** Papers and slides are referenced with relative paths like `../papers/filename.pdf` or `papers/filename.pdf` from within markdown files.
+**Content verification:** every entry must cite a real, verified URL. Never attribute articles or affiliations without confirming authorship (owner rule from the Reputation project).
 
-**Front matter:** All pages use Jekyll front matter with `layout`, `title`, and `permalink` fields.
+**Deploys:** push to `master` = deploy to gliao.xyz. Nothing ships without Gordon's explicit approval of a preview. A failed build leaves the live site untouched. Rollback = `git revert` + push.
+
+**Specs and plans** live in root-level `specs/` and `plans/` (public repo — keep wording neutral).
