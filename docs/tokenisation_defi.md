@@ -11,6 +11,8 @@ description: "Gordon Y. Liao's research on payment stablecoins, tokenized money,
 <!-- To cite: bibtex -->
 # Payment Stablecoins and Tokenised Money
 
+* **[Transaction Proximity: A Graph-Based Approach to Blockchain Fraud Prevention](https://arxiv.org/html/2505.24284v1)**, joint with Ziming Zeng, Mira Belenkiy, Jacob Hirshman, 2025
+
 * **[Risk-based Capital for Stable Value Tokens](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568)**, joint with Dan Fishman, Jeremy Fox-Geen, August 2024
     - Press: [Bloomberg Money Stuff](https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs)
 
@@ -57,6 +59,12 @@ description: "Gordon Y. Liao's research on payment stablecoins, tokenized money,
 
 
 # Others
+* **[The Autonomous Economic Fabric: How Onchain AI is Redefining Economic Boundaries](discussion/slides_Onchain_AI_Aug2025.pdf)**, Slides from 3rd Annual Summit on Decentralization and AI 2025 hosted by Berkeley RDI, August 2025
+
+* **['Code as Law': The tokenization of financial assets and the paradox of programmability](https://www.weforum.org/stories/2024/10/tokenization-financial-assets-crypto-programmable-paradox/)**, World Economic Forum, October 2024
+
+* **[Money Tokens: The Digital Revolution Reshaping Money](https://www.brettonwoods.org/article/money-tokens-the-digital-revolution-reshaping-money)**, the Bretton Woods Committee, October, 2024
+
 * **[AI in the Future of Finance](discussion/AI_and_finance_PIFS_2024_June.pdf)**, Slides from Harvard PIFS, June 2024
 
 * **[Cooperative AI and Decentralized Trust](discussion/CooperativeAI_and_Decentralized_Trust.pdf)**, Slides from Berkeley RDI summit, August 2023
@@ -67,7 +75,10 @@ description: "Gordon Y. Liao's research on payment stablecoins, tokenized money,
 * **[TradFi, CeFi, DeFi: A Balance Sheet Journey Through Financial Alchemy](https://www.circle.com/blog/tradfi-cefi-defi-a-balance-sheet-journey-through-financial-alchemy)**, Keynote address at Harvard Blockchain Conference, April 1, 2023
 
 
+
 # Select discussions
+* **[Decrypting Crypto: How to Estimate International Stablecoin Flows](discussion/Discussion_Liao_Decrypting_Crypto_Flow.pdf)** at the 7th IMF Annual Macro-Finance Research Conference
+
 * **[Stablecoins and Short-term Funding Market](discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf)** at the SNB-CIF 2023 conference
 
 * **[Anatomy of a Run: The Terra Luna Crash](discussion/Discussion_Terra_Luna_Crash.pdf)** at WFA 2024
