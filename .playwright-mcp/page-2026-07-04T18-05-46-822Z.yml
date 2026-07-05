@@ -1,0 +1,148 @@
+- generic [ref=f2e2]:
+  - navigation [ref=f2e3]:
+    - link "GORDON Y. LIAO" [ref=f2e4] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f2e5]:
+      - link "Research" [ref=f2e6] [cursor=pointer]:
+        - /url: /research/
+      - link "Speaking" [ref=f2e7] [cursor=pointer]:
+        - /url: /speaking/
+      - link "Media" [ref=f2e8] [cursor=pointer]:
+        - /url: /media/
+      - link "Writing" [ref=f2e9] [cursor=pointer]:
+        - /url: /writing/
+      - link "CV" [ref=f2e10] [cursor=pointer]:
+        - /url: /cv/
+  - main [ref=f2e11]:
+    - heading "Speaking" [level=1] [ref=f2e12]
+    - paragraph [ref=f2e13]: "Gordon Y. Liao is Chief Economist and Head of Research at Circle (NYSE: CRCL), issuer of USDC. An economist bridging traditional finance and digital assets, he has shaped monetary-policy analysis at the Federal Reserve Board, led research at Uniswap Labs, and managed fixed-income portfolios at the Harvard endowment. His research on stablecoins, exchange rates, and market structure appears in the Review of Financial Studies and the Journal of Financial Economics. He holds a Ph.D. in Economics and an A.B. in Applied Mathematics from Harvard."
+    - generic [ref=f2e14]: Talk topics
+    - generic [ref=f2e15]:
+      - text: The Stablecoin Standard
+      - paragraph [ref=f2e16]: How payment stablecoins become reserve infrastructure for the digital dollar — from an economist who helped write the capital rules (TCAF).
+    - generic [ref=f2e17]:
+      - text: From the Fed to DeFi
+      - paragraph [ref=f2e18]: What central banks, DeFi protocols, and public companies each get wrong about the other — lessons from working inside all three.
+    - generic [ref=f2e19]:
+      - text: Quantum Risk Is Crypto's Y2K
+      - paragraph [ref=f2e20]: The unaddressed vulnerability in blockchain security and the roadmap for post-quantum digital assets.
+    - generic [ref=f2e21]: Selected engagements
+    - generic [ref=f2e22]:
+      - text: ETHDenver · Mar 2026 · Denver, CO
+      - paragraph [ref=f2e23]: "Invited talk: “Making Onchain Agents Useful”"
+      - link "Video" [ref=f2e25] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=UJOMec-6MFQ
+    - generic [ref=f2e26]:
+      - text: Stanford Blockchain Alumni Summit (BASS) Denver · Feb 2026 · Denver, CO
+      - paragraph [ref=f2e27]: "Invited talk: “Quantum Risk in Blockchain and Crypto”"
+      - link "Video" [ref=f2e29] [cursor=pointer]:
+        - /url: https://youtu.be/2btTirAJgp4
+    - generic [ref=f2e30]:
+      - text: Berkeley RDI DeAI Summit · Aug 2025 · Berkeley, CA
+      - paragraph [ref=f2e31]: "Invited talk: “Onchain Agents and the Boundaries of the Firm”"
+      - link "Video" [ref=f2e33] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=c1_OP8DHjIs
+    - generic [ref=f2e34]:
+      - text: Institute for Global Economics (IGE) Global Economy Webinar · Aug 2025 · Seoul (virtual)
+      - paragraph [ref=f2e35]: "Keynote: “The Rise of Stablecoins: Rewiring the Global Financial Grid”"
+      - link "Video" [ref=f2e37] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=hUFooR5q81k
+    - generic [ref=f2e38]:
+      - text: CBER Forum · May 2025
+      - paragraph [ref=f2e39]: "Invited talk: “Cryptoasset Pricing”"
+      - link "Video" [ref=f2e41] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=BaWNIUNE4Xg
+    - generic [ref=f2e42]:
+      - text: American Banker Payments Forum · Mar 2025
+      - paragraph [ref=f2e43]: "Invited talk: “On-stage interview with Nik De”"
+    - generic [ref=f2e44]:
+      - text: ETHDenver · Feb 2025 · Denver, CO
+      - paragraph [ref=f2e45]: "Invited talk: “Stablecoins on Unstable Chains”"
+      - link "Video" [ref=f2e47] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=b--S5GUgbDA
+    - generic [ref=f2e48]:
+      - text: NABE Economic Policy Conference · 2025 · Washington, D.C.
+      - paragraph [ref=f2e49]: "Panel: “Crypto and Tokenization Policy in a New Era — with Hester Peirce (SEC) and Eswar Prasad”"
+    - generic [ref=f2e50]:
+      - text: Stable Summit · 2025
+      - paragraph [ref=f2e51]: "Invited talk: “Message Embedding for On-Chain Payments”"
+      - link "Video" [ref=f2e53] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=dXBVCOMuQ3Y
+    - generic [ref=f2e54]:
+      - text: Uniday (Uniswap Foundation) · 2025
+      - paragraph [ref=f2e55]: "Invited talk: “Scaling DeFi for Global Finance”"
+      - link "Video" [ref=f2e57] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=eMEXy2KlUm0
+    - generic [ref=f2e58]:
+      - text: Western Finance Association (WFA) Annual Meeting · Jul 2024
+      - paragraph [ref=f2e59]: "Discussion: “Anatomy of a Run: The Terra Luna Crash”"
+      - link "Slides" [ref=f2e61] [cursor=pointer]:
+        - /url: /discussion/Discussion_Terra_Luna_Crash.pdf
+    - generic [ref=f2e62]:
+      - text: Harvard Program on International Financial Systems (PIFS) · Jun 2024 · Cambridge, MA
+      - paragraph [ref=f2e63]: "Invited talk: “AI in the Future of Finance”"
+      - link "Slides" [ref=f2e65] [cursor=pointer]:
+        - /url: /discussion/AI_and_finance_PIFS_2024_June.pdf
+    - generic [ref=f2e66]:
+      - text: Japan FinTech Festival · Mar 2024 · Tokyo
+      - paragraph [ref=f2e67]: "Panel: “Moving Money at the Speed of the Internet”"
+    - generic [ref=f2e68]:
+      - text: OCC Symposium on the Tokenization of Real-World Assets and Liabilities · Feb 2024 · Washington, D.C.
+      - paragraph [ref=f2e69]: "Invited talk: “Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements”"
+      - link "Slides" [ref=f2e71] [cursor=pointer]:
+        - /url: /papers/Liao_OCC_Tokenization_Confernece.pdf
+    - generic [ref=f2e72]:
+      - text: Georgetown Law — Institute of International Economic Law · Feb 2024 · Washington, D.C.
+      - paragraph [ref=f2e73]: "Invited talk: “Payment Stablecoins Colloquium — fireside with Prof. Chris Brummer”"
+    - generic [ref=f2e74]:
+      - text: Point Zero Forum · 2024 · Zurich
+      - paragraph [ref=f2e75]: "Panel: “FX in a World of Digital Money — roundtable with the IMF and MAS”"
+    - generic [ref=f2e76]:
+      - text: Stanford Blockchain Alumni Summit (BASS) NYC · 2024 · New York, NY
+      - paragraph [ref=f2e77]: "Invited talk: “Enabling Liquidity in LSTs and RWAs”"
+      - link "Video" [ref=f2e79] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=ljMVyKt2AEE
+    - generic [ref=f2e80]:
+      - text: D.C. Fintech Week · Oct 2023 · Washington, D.C.
+      - paragraph [ref=f2e81]: "Invited talk: “Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements — Best Paper Award”"
+      - link "Video" [ref=f2e83] [cursor=pointer]:
+        - /url: https://youtu.be/Iit75lVVzIk
+    - generic [ref=f2e84]:
+      - text: Berkeley RDI Summit · Aug 2023 · Berkeley, CA
+      - paragraph [ref=f2e85]: "Invited talk: “Cooperative AI and Decentralized Trust”"
+      - link "Slides" [ref=f2e87] [cursor=pointer]:
+        - /url: /discussion/CooperativeAI_and_Decentralized_Trust.pdf
+    - generic [ref=f2e88]:
+      - text: Bank of Canada — Networks in Modern Financial and Payments Systems Conference · Jun 2023 · Ottawa
+      - paragraph [ref=f2e89]: "Invited talk: “On-Chain Foreign Exchange and Cross-Border Payments”"
+      - link "Slides" [ref=f2e91] [cursor=pointer]:
+        - /url: /papers/On-Chain_FX_BOC_JUN23.pdf
+    - generic [ref=f2e92]:
+      - text: Harvard Blockchain Conference · Apr 2023 · Cambridge, MA
+      - paragraph [ref=f2e93]: "Keynote: “TradFi, CeFi, DeFi: A Balance Sheet Journey Through Financial Alchemy”"
+    - generic [ref=f2e94]:
+      - text: NABE Economic Policy Conference · Mar 2023 · Washington, D.C.
+      - paragraph [ref=f2e95]: "Panel: “Regulating Digital Assets and Payment Stablecoins — with Tobias Adrian (IMF) and Nellie Liang (U.S. Treasury)”"
+    - generic [ref=f2e96]:
+      - text: Davos — World Economic Forum Annual Meeting week · Jan 2023 · Davos
+      - paragraph [ref=f2e97]: "Invited talk: “The Next Evolution of Money — fireside with Niall Ferguson”"
+      - link "Video" [ref=f2e99] [cursor=pointer]:
+        - /url: https://youtu.be/b2YXoSuJp2Q
+    - generic [ref=f2e100]:
+      - text: SNB-CIF Conference on Cryptoassets and Financial Innovation · 2023 · Zurich
+      - paragraph [ref=f2e101]: "Discussion: “Stablecoins and Short-term Funding Markets”"
+      - link "Slides" [ref=f2e103] [cursor=pointer]:
+        - /url: /discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf
+    - generic [ref=f2e104]:
+      - text: Brookings Institution · Oct 2022 · Washington, D.C.
+      - paragraph [ref=f2e105]: "Panel: “Digital Asset Regulation: The Prudential Perspective”"
+    - generic [ref=f2e106]: Booking
+    - paragraph [ref=f2e107]:
+      - text: "For speaking inquiries:"
+      - link "gliao@post.harvard.edu" [ref=f2e108] [cursor=pointer]:
+        - /url: mailto:gliao@post.harvard.edu
+      - text: . Print this page for a one-page speaker sheet.
+  - contentinfo [ref=f2e109]:
+    - generic [ref=f2e110]: © 2026 Gordon Y. Liao
+    - link "gliao@post.harvard.edu" [ref=f2e111] [cursor=pointer]:
+      - /url: mailto:gliao@post.harvard.edu

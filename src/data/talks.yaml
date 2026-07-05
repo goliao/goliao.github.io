@@ -16,12 +16,19 @@
   kind: invited
   links: { video: "https://youtu.be/2btTirAJgp4" }
 
-- event: "Berkeley RDI DeAI Summit"
-  title: "Onchain Agents and the Boundaries of the Firm"
+- event: "Berkeley RDI Summit on Decentralization and AI"
+  title: "The Autonomous Economic Fabric: How Onchain AI is Redefining Economic Boundaries"
   date: "2025-08"
   location: "Berkeley, CA"
   kind: invited
-  links: { video: "https://www.youtube.com/watch?v=c1_OP8DHjIs" }
+  links: { video: "https://www.youtube.com/watch?v=c1_OP8DHjIs", slides: "/discussion/slides_Onchain_AI_Aug2025.pdf" }
+
+- event: "7th IMF Annual Macro-Finance Research Conference"
+  title: "Decrypting Crypto: How to Estimate International Stablecoin Flows"
+  date: "2025"
+  location: "Washington, D.C."
+  kind: discussion
+  links: { slides: "/discussion/Discussion_Liao_Decrypting_Crypto_Flow.pdf" }
 
 - event: "Institute for Global Economics (IGE) Global Economy Webinar"
   title: "The Rise of Stablecoins: Rewiring the Global Financial Grid"

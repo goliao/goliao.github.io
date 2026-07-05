@@ -1,0 +1,54 @@
+- generic [ref=f4e2]:
+  - navigation [ref=f4e3]:
+    - link "GORDON Y. LIAO" [ref=f4e4] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f4e5]:
+      - link "Research" [ref=f4e6] [cursor=pointer]:
+        - /url: /research/
+      - link "Speaking" [ref=f4e7] [cursor=pointer]:
+        - /url: /speaking/
+      - link "Media" [ref=f4e8] [cursor=pointer]:
+        - /url: /media/
+      - link "Writing" [ref=f4e9] [cursor=pointer]:
+        - /url: /writing/
+      - link "CV" [ref=f4e10] [cursor=pointer]:
+        - /url: /cv/
+  - main [ref=f4e11]:
+    - heading "Writing" [level=1] [ref=f4e12]
+    - paragraph [ref=f4e13]:
+      - text: Op-eds, columns, and commentary. Academic papers live under
+      - link "Research" [ref=f4e14] [cursor=pointer]:
+        - /url: /research/
+      - text: .
+    - generic [ref=f4e15]:
+      - 'link "Money Tokens: The Digital Revolution Reshaping Money" [ref=f4e17] [cursor=pointer]':
+        - /url: https://www.brettonwoods.org/article/money-tokens-the-digital-revolution-reshaping-money
+      - text: — Bretton Woods Committee, Oct 2024
+    - generic [ref=f4e18]:
+      - link "How to Preserve the Singleness of Money for Tokenised Forms of Money?" [ref=f4e20] [cursor=pointer]:
+        - /url: /discussion/Singleness_of_money.pdf
+      - text: — Circle, Jun 2023
+    - generic [ref=f4e21]:
+      - 'link "TradFi, CeFi, DeFi: A Balance Sheet Journey Through Financial Alchemy" [ref=f4e23] [cursor=pointer]':
+        - /url: https://www.circle.com/blog/tradfi-cefi-defi-a-balance-sheet-journey-through-financial-alchemy
+      - text: — Circle, Apr 2023
+    - generic [ref=f4e24]:
+      - link "Banks Dominate Payment Systems. The Risks Are All Too Clear." [ref=f4e26] [cursor=pointer]:
+        - /url: https://www.barrons.com/articles/svb-circle-payments-stablecoins-crypto-8ffba659
+      - text: — Barron's, Mar 2023
+    - generic [ref=f4e27]:
+      - link "Payment versus Trading Stablecoins" [ref=f4e29] [cursor=pointer]:
+        - /url: https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins
+      - text: — CEPR VoxEU, Mar 2023
+    - generic [ref=f4e30]:
+      - link "Digital Assets and the Future of Money" [ref=f4e32] [cursor=pointer]:
+        - /url: https://www.circle.com/blog/digital-assets-and-the-future-of-money
+      - text: — Circle, Mar 2023
+    - generic [ref=f4e33]:
+      - link "Currency Hedging, Exchange Rate Movement, and Dollar Swap Line Usage During COVID-19" [ref=f4e35] [cursor=pointer]:
+        - /url: https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19
+      - text: — VoxEU, Jul 2020
+  - contentinfo [ref=f4e36]:
+    - generic [ref=f4e37]: © 2026 Gordon Y. Liao
+    - link "gliao@post.harvard.edu" [ref=f4e38] [cursor=pointer]:
+      - /url: mailto:gliao@post.harvard.edu

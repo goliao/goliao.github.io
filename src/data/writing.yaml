@@ -1,6 +1,12 @@
 # Op-eds, columns, and commentary — newest first.
 # kind: op-ed | column | explainer
 
+- outlet: "World Economic Forum"
+  title: "'Code as Law': The Tokenization of Financial Assets and the Paradox of Programmability"
+  url: "https://www.weforum.org/stories/2024/10/tokenization-financial-assets-crypto-programmable-paradox/"
+  date: "2024-10"
+  kind: column
+
 - outlet: "Bretton Woods Committee"
   title: "Money Tokens: The Digital Revolution Reshaping Money"
   url: "https://www.brettonwoods.org/article/money-tokens-the-digital-revolution-reshaping-money"

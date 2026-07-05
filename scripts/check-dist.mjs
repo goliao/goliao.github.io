@@ -14,6 +14,8 @@ const REQUIRED_ASSETS = [
   'papers/arc_litepaper_2025.pdf', 'papers/circle_quantum_roadmap.pdf',
   'papers/HouseholdsTailRisk_WP.pdf',
   'discussion/AI_and_finance_PIFS_2024_June.pdf',
+  'discussion/Discussion_Liao_Decrypting_Crypto_Flow.pdf',
+  'discussion/slides_Onchain_AI_Aug2025.pdf',
   'discussion/CooperativeAI_and_Decentralized_Trust.pdf',
   'discussion/Discussion_Stablecoins_Short_term_funding_paper.pdf',
   'discussion/Discussion_Terra_Luna_Crash.pdf',

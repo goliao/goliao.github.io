@@ -1,0 +1,297 @@
+- generic [ref=f1e2]:
+  - navigation [ref=f1e3]:
+    - link "GORDON Y. LIAO" [ref=f1e4] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f1e5]:
+      - link "Research" [ref=f1e6] [cursor=pointer]:
+        - /url: /research/
+      - link "Speaking" [ref=f1e7] [cursor=pointer]:
+        - /url: /speaking/
+      - link "Media" [ref=f1e8] [cursor=pointer]:
+        - /url: /media/
+      - link "Writing" [ref=f1e9] [cursor=pointer]:
+        - /url: /writing/
+      - link "CV" [ref=f1e10] [cursor=pointer]:
+        - /url: /cv/
+  - main [ref=f1e11]:
+    - heading "Research" [level=1] [ref=f1e12]
+    - generic [ref=f1e13]:
+      - generic [ref=f1e14]: Working papers
+      - generic [ref=f1e15]:
+        - link "How do Households Suppress the Price of Tail Risk?" [ref=f1e17] [cursor=pointer]:
+          - /url: /papers/HouseholdsTailRisk_WP.pdf
+        - text: with Laurent Calvet, Claire Célérier, Boris Vallée
+        - paragraph [ref=f1e18]: Best Conference Paper Prize, Paris December Finance Meeting 2025. Formerly circulated as “The Price Effects of Innovative Security Design.”
+        - link "PDF" [ref=f1e20] [cursor=pointer]:
+          - /url: /papers/HouseholdsTailRisk_WP.pdf
+      - generic [ref=f1e21]:
+        - link "What Drives Liquidity on Decentralized Exchanges? Evidence from the Uniswap Protocol" [ref=f1e23] [cursor=pointer]:
+          - /url: https://arxiv.org/abs/2410.19107
+        - text: with Brian Z. Zhu, Dingyue Liu, Xin Wan, Ciamac C. Moallemi, Brad Bachu
+        - link "PDF" [ref=f1e25] [cursor=pointer]:
+          - /url: https://arxiv.org/abs/2410.19107
+      - generic [ref=f1e26]:
+        - link "Risk-based Capital for Stable Value Tokens" [ref=f1e28] [cursor=pointer]:
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568
+        - text: with Dan Fishman, Jeremy Fox-Geen
+        - paragraph [ref=f1e29]: The Token Capital Adequacy Framework (TCAF) — risk-based capital for stablecoin issuers.
+        - generic [ref=f1e30]:
+          - link "SSRN" [ref=f1e31] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926568
+          - text: "· Press:"
+          - link "Bloomberg Money Stuff" [ref=f1e32] [cursor=pointer]:
+            - /url: https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs
+      - generic [ref=f1e33]:
+        - link "What Drives Crypto Asset Prices?" [ref=f1e35] [cursor=pointer]:
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910537
+        - text: with Austin Adams, Markus Ibert
+        - generic [ref=f1e36]:
+          - link "SSRN" [ref=f1e37] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910537
+          - text: "· Press:"
+          - link "Bloomberg Money Stuff" [ref=f1e38] [cursor=pointer]:
+            - /url: https://www.bloomberg.com/opinion/articles/2024-08-05/the-good-trades-have-gone-bad
+      - generic [ref=f1e39]:
+        - 'link "Beyond Speculation: Payment Stablecoins for Real-time Gross Settlements" [ref=f1e41] [cursor=pointer]':
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859
+        - text: with Thomas Hadeed, Ziming Zeng
+        - paragraph [ref=f1e42]: Best Paper Award, D.C. Fintech Week 2023.
+        - generic [ref=f1e43]:
+          - link "SSRN" [ref=f1e44] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4476859
+          - text: ·
+          - link "Slides" [ref=f1e45] [cursor=pointer]:
+            - /url: /papers/Liao_OCC_Tokenization_Confernece.pdf
+          - text: ·
+          - link "Video" [ref=f1e46] [cursor=pointer]:
+            - /url: https://youtu.be/Iit75lVVzIk
+      - generic [ref=f1e47]:
+        - link "On-Chain Foreign Exchange and Cross-Border Payments" [ref=f1e49] [cursor=pointer]:
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328948
+        - text: with Austin Adams, Mary-Catherine Lader, David Puth, Xin Wan
+        - paragraph [ref=f1e50]: Distributed-ledger trading and settlement of FX on public blockchains.
+        - generic [ref=f1e51]:
+          - link "SSRN" [ref=f1e52] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4328948
+          - text: ·
+          - link "Slides" [ref=f1e53] [cursor=pointer]:
+            - /url: /papers/On-Chain_FX_BOC_JUN23.pdf
+          - text: ·
+          - link "Code" [ref=f1e54] [cursor=pointer]:
+            - /url: https://github.com/Uniswap/fx-comparison-study
+          - text: "· Press:"
+          - link "Bloomberg" [ref=f1e55] [cursor=pointer]:
+            - /url: https://www.bloomberg.com/news/articles/2023-01-31/the-7-trillion-global-currency-market-is-a-target-for-defi-proponents
+          - text: ","
+          - link "Nasdaq" [ref=f1e56] [cursor=pointer]:
+            - /url: https://www.nasdaq.com/articles/could-defi-be-the-future-of-foreign-exchange-trading
+      - generic [ref=f1e57]:
+        - link "Macroprudential Considerations for Tokenized Cash" [ref=f1e59] [cursor=pointer]:
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228268
+        - paragraph [ref=f1e60]: Blockchain evidence on the use and financial-stability risks of tokenized cash.
+        - generic [ref=f1e61]:
+          - link "SSRN" [ref=f1e62] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228268
+          - text: "· Press:"
+          - link "VoxEU" [ref=f1e63] [cursor=pointer]:
+            - /url: https://cepr.org/voxeu/columns/payment-versus-trading-stablecoins
+      - generic [ref=f1e64]:
+        - 'link "Stablecoins: Growth Potential and Impact on Banking" [ref=f1e66] [cursor=pointer]':
+          - /url: https://www.federalreserve.gov/econres/ifdp/stablecoins-growth-potential-and-impact-on-banking.htm
+        - text: with John Caramichael — Federal Reserve International Finance Discussion Papers, Jan 2022
+        - generic [ref=f1e67]:
+          - link "Journal" [ref=f1e68] [cursor=pointer]:
+            - /url: https://www.federalreserve.gov/econres/ifdp/stablecoins-growth-potential-and-impact-on-banking.htm
+          - text: "· Press:"
+          - link "Bloomberg Money Stuff" [ref=f1e69] [cursor=pointer]:
+            - /url: https://www.bloomberg.com/opinion/articles/2022-02-01/hedge-funds-are-a-job-now
+          - text: ","
+          - link "Central Banking" [ref=f1e70] [cursor=pointer]:
+            - /url: https://www.centralbanking.com/fintech/crypto-assets/7928291/fed-paper-explores-stablecoins-impact-on-financial-system
+          - text: ","
+          - link "PYMNTS" [ref=f1e71] [cursor=pointer]:
+            - /url: https://www.pymnts.com/cryptocurrency/2022/fed-paper-finds-stablecoin-risks-are-manageable-and-come-with-rewards/
+      - generic [ref=f1e72]:
+        - link "U.S. Dollar Currency Premium in Corporate Bonds" [ref=f1e74] [cursor=pointer]:
+          - /url: https://www.imf.org/en/publications/wp/issues/2021/07/12/u-s-461324
+        - text: with John Caramichael, Gita Gopinath — IMF Working Paper 2021/185, Jul 2021
+        - paragraph [ref=f1e75]: Isolates a dollar currency premium from corporate bonds issued in dollars and euros by firms outside both blocs.
+        - generic [ref=f1e76]:
+          - link "SSRN" [ref=f1e77] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4026384
+          - text: ·
+          - link "Journal" [ref=f1e78] [cursor=pointer]:
+            - /url: https://www.imf.org/en/publications/wp/issues/2021/07/12/u-s-461324
+      - generic [ref=f1e79]:
+        - link "U.S. Banks and Global Liquidity" [ref=f1e81] [cursor=pointer]:
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3638658
+        - text: with Ricardo Correa, Wenxin Du
+        - paragraph [ref=f1e82]: Ample reserves are key to global banks’ dollar lending in money markets.
+        - generic [ref=f1e83]:
+          - link "SSRN" [ref=f1e84] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3638658
+          - text: ·
+          - link "PDF" [ref=f1e85] [cursor=pointer]:
+            - /url: /papers/US_Banks_Global_Liquidity.pdf
+          - text: "· Press:"
+          - link "WSJ" [ref=f1e86] [cursor=pointer]:
+            - /url: https://www.wsj.com/articles/how-the-worlds-dullest-market-quietly-created-a-synthetic-dollar-empire-11601031401
+          - text: ","
+          - link "Bloomberg Law" [ref=f1e87] [cursor=pointer]:
+            - /url: https://news.bloomberglaw.com/banking-law/how-regulations-shrinking-fed-balance-sheet-fueled-repo-mayhem
+          - text: ","
+          - link "FT" [ref=f1e88] [cursor=pointer]:
+            - /url: https://on.ft.com/33ydiMD
+    - generic [ref=f1e89]:
+      - generic [ref=f1e90]: Publications
+      - generic [ref=f1e91]:
+        - link "The Hedging Channel of Exchange Rate Determination" [ref=f1e93] [cursor=pointer]:
+          - /url: https://doi.org/10.1093/rfs/hhae072
+        - text: RFS with Tony Zhang — Review of Financial Studies, 38(1), 2025
+        - paragraph [ref=f1e94]: Currency hedging links external imbalances to exchange rates, the cross-currency basis, and option skew.
+        - generic [ref=f1e95]:
+          - link "SSRN" [ref=f1e96] [cursor=pointer]:
+            - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3612395
+          - text: ·
+          - link "Journal" [ref=f1e97] [cursor=pointer]:
+            - /url: https://doi.org/10.1093/rfs/hhae072
+          - text: ·
+          - link "PDF" [ref=f1e98] [cursor=pointer]:
+            - /url: /papers/HedgingChannelofExchangeRate_Latest.pdf
+          - text: "· Press:"
+          - link "VoxEU" [ref=f1e99] [cursor=pointer]:
+            - /url: https://voxeu.org/article/currency-hedging-exchange-rate-movement-and-dollar-swap-line-usage-during-covid-19
+      - generic [ref=f1e100]:
+        - 'link "Democratizing Effects of Digital Ledger Technologies: Implications for Economic Mobility" [ref=f1e102] [cursor=pointer]':
+          - /url: https://doi.org/10.3389/fbloc.2023.972183
+        - text: with Christos Makridis — Frontiers in Blockchain, 2023
+        - link "Journal" [ref=f1e104] [cursor=pointer]:
+          - /url: https://doi.org/10.3389/fbloc.2023.972183
+      - generic [ref=f1e105]:
+        - link "Rare Disaster Probability and Options Pricing" [ref=f1e107] [cursor=pointer]:
+          - /url: https://doi.org/10.1016/j.jfineco.2020.10.001
+        - text: JFE with Robert Barro — Journal of Financial Economics, 2021
+        - paragraph [ref=f1e108]: "Disaster probabilities extracted from option prices. Updated U.S. series: /data/spx_disaster_prob_march2021update.csv"
+        - generic [ref=f1e109]:
+          - link "Journal" [ref=f1e110] [cursor=pointer]:
+            - /url: https://doi.org/10.1016/j.jfineco.2020.10.001
+          - text: ·
+          - link "Data" [ref=f1e111] [cursor=pointer]:
+            - /url: https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0
+      - generic [ref=f1e112]:
+        - link "Credit Migration and Covered Interest Rate Parity" [ref=f1e114] [cursor=pointer]:
+          - /url: https://doi.org/10.1016/j.jfineco.2020.06.002
+        - text: JFE — Journal of Financial Economics, 2020
+        - generic [ref=f1e115]:
+          - link "Journal" [ref=f1e116] [cursor=pointer]:
+            - /url: https://doi.org/10.1016/j.jfineco.2020.06.002
+          - text: ·
+          - link "PDF" [ref=f1e117] [cursor=pointer]:
+            - /url: /papers/CreditCIP_JFE.pdf
+          - text: ·
+          - link "Slides" [ref=f1e118] [cursor=pointer]:
+            - /url: https://www.bis.org/events/bissymposium0517/symposium0517_12_pres.pdf
+          - text: ·
+          - link "Data" [ref=f1e119] [cursor=pointer]:
+            - /url: http://bit.ly/CreditCIPData
+          - text: "· Press:"
+          - link "Bloomberg" [ref=f1e120] [cursor=pointer]:
+            - /url: https://www.bloomberg.com/opinion/articles/2016-10-27/commissions-and-chatbots
+          - text: ","
+          - link "John Cochrane's blog" [ref=f1e121] [cursor=pointer]:
+            - /url: https://johnhcochrane.blogspot.com/2017/03/covered-interest-parity.html
+      - generic [ref=f1e122]:
+        - link "Asset Price Dynamics in Partially Segmented Markets" [ref=f1e124] [cursor=pointer]:
+          - /url: https://doi.org/10.1093/rfs/hhy048
+        - text: RFS with Robin Greenwood, Samuel Hanson — Review of Financial Studies, 2018
+        - generic [ref=f1e125]:
+          - link "Journal" [ref=f1e126] [cursor=pointer]:
+            - /url: https://doi.org/10.1093/rfs/hhy048
+          - text: ·
+          - link "PDF" [ref=f1e127] [cursor=pointer]:
+            - /url: https://www.hbs.edu/ris/Publication%20Files/Asset%20Price%20Dynamics%20in%20Partially%20Segmented%20Markets_8aa188d2-3cf0-4190-9860-017aff413c6a.pdf
+          - text: ·
+          - link "Code" [ref=f1e128] [cursor=pointer]:
+            - /url: https://github.com/goliao/GHL2018RFS
+      - generic [ref=f1e129]:
+        - link "Rethinking Operational Risk Capital Requirements" [ref=f1e131] [cursor=pointer]:
+          - /url: https://academic.oup.com/jfr/article/4/1/1/4792987
+        - text: JFR with Peter Sands, Yueran Ma — Journal of Financial Regulation, 2018
+        - link "Journal" [ref=f1e133] [cursor=pointer]:
+          - /url: https://academic.oup.com/jfr/article/4/1/1/4792987
+    - generic [ref=f1e134]:
+      - generic [ref=f1e135]: Technical reports
+      - generic [ref=f1e136]:
+        - 'link "AMP: Arc Multi-Proposer Protocol with Bounded Inclusion Guarantees" [ref=f1e138] [cursor=pointer]':
+          - /url: https://arxiv.org/abs/2605.23677
+        - text: with Daniel Cason, Sergio Mena, Nenad Milošević, Adi Seredinschi, Alessandro Sforzin, João Sousa, Preston Vander Vos — arXiv (cs.DC), May 2026
+        - paragraph [ref=f1e139]: Multi-proposer consensus with bounded transaction-inclusion guarantees, developed for Arc.
+        - link "PDF" [ref=f1e141] [cursor=pointer]:
+          - /url: https://arxiv.org/abs/2605.23677
+      - generic [ref=f1e142]:
+        - link "Circle’s Post-Quantum Security Roadmap" [ref=f1e144] [cursor=pointer]:
+          - /url: https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/quantum_paper.pdf
+        - text: with Mira Belenkiy, Duc V. Le, Vipin Singh Sehrawat, Dragos Rotaru, Sergey Gorbunov, Milap Sheth, Jay Logelin, Anthony De Abreu, Dan Boneh — Circle, May 2026
+        - paragraph [ref=f1e145]: Securing blockchains, smart contracts, and digital assets for the quantum era.
+        - generic [ref=f1e146]:
+          - link "PDF" [ref=f1e147] [cursor=pointer]:
+            - /url: https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/quantum_paper.pdf
+          - text: ·
+          - link "Mirror" [ref=f1e148] [cursor=pointer]:
+            - /url: /papers/circle_quantum_roadmap.pdf
+      - generic [ref=f1e149]:
+        - 'link "Arc: An Open Layer-1 Blockchain Purpose-Built for Stablecoin Finance" [ref=f1e151] [cursor=pointer]':
+          - /url: https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/Arc%20Litepaper%20-%202025.pdf
+        - text: with Rachel Mayer, Adrian Soghoian, Sanket Jain, Erik Tierney — Circle, Aug 2025
+        - paragraph [ref=f1e152]: "Litepaper: USDC as native gas, deterministic sub-second settlement finality, and opt-in privacy."
+        - generic [ref=f1e153]:
+          - link "PDF" [ref=f1e154] [cursor=pointer]:
+            - /url: https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/Arc%20Litepaper%20-%202025.pdf
+          - text: ·
+          - link "Mirror" [ref=f1e155] [cursor=pointer]:
+            - /url: /papers/arc_litepaper_2025.pdf
+      - generic [ref=f1e156]:
+        - 'link "Transaction Proximity: A Graph-Based Approach to Blockchain Fraud Prevention" [ref=f1e158] [cursor=pointer]':
+          - /url: https://arxiv.org/abs/2505.24284
+        - text: with Ziming Zeng, Mira Belenkiy, Jacob Hirshman — arXiv, May 2025
+        - paragraph [ref=f1e159]: Fraud deterrence from transaction-graph proximity while preserving blockchain openness.
+        - link "PDF" [ref=f1e161] [cursor=pointer]:
+          - /url: https://arxiv.org/abs/2505.24284
+    - generic [ref=f1e162]:
+      - generic [ref=f1e163]: Other manuscripts
+      - generic [ref=f1e164]:
+        - link "The Dominance of Uniswap v3 Liquidity" [ref=f1e166] [cursor=pointer]:
+          - /url: https://uniswap.org/TheDominanceofUniswapv3Liquidity.pdf
+        - text: with Dan Robinson
+        - generic [ref=f1e167]:
+          - link "PDF" [ref=f1e168] [cursor=pointer]:
+            - /url: https://uniswap.org/TheDominanceofUniswapv3Liquidity.pdf
+          - text: ·
+          - link "Code" [ref=f1e169] [cursor=pointer]:
+            - /url: https://github.com/Uniswap/v3-market-depth-study
+          - text: ·
+          - link "Data" [ref=f1e170] [cursor=pointer]:
+            - /url: https://bit.ly/v3depthdata
+      - generic [ref=f1e171]:
+        - link "Uniswap Returns for Passive Liquidity Providers" [ref=f1e173] [cursor=pointer]:
+          - /url: https://uniswap.org/SuperiorReturnsForLiquidityProviders.pdf
+        - text: with Austin Adams
+        - generic [ref=f1e174]:
+          - link "PDF" [ref=f1e175] [cursor=pointer]:
+            - /url: https://uniswap.org/SuperiorReturnsForLiquidityProviders.pdf
+          - text: ·
+          - link "Code" [ref=f1e176] [cursor=pointer]:
+            - /url: https://github.com/Uniswap/returns-comparison-study
+          - text: ·
+          - link "Data" [ref=f1e177] [cursor=pointer]:
+            - /url: https://storage.googleapis.com/uniswap-fee-returns/protocol_returns.csv
+      - generic [ref=f1e178]:
+        - link "Average Marginal Income Tax Rates in New Zealand, 1907–2009" [ref=f1e180] [cursor=pointer]:
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205
+        - text: with Debasis Bandyopadhyay, Robert J. Barro, Jeremy Couchman, Norman Gemmell, Fiona McAlister
+        - link "SSRN" [ref=f1e182] [cursor=pointer]:
+          - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2199205
+  - contentinfo [ref=f1e183]:
+    - generic [ref=f1e184]: © 2026 Gordon Y. Liao
+    - link "gliao@post.harvard.edu" [ref=f1e185] [cursor=pointer]:
+      - /url: mailto:gliao@post.harvard.edu
