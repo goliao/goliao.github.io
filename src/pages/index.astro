@@ -15,8 +15,7 @@ const latestPress = [...press].sort(byDate)[0];
 const latestWriting = [...writing].sort(byDate)[0];
 const s = profile.social;
 const quick = [
-  ['Google Scholar', s.scholar], ['SSRN', s.ssrn], ['LinkedIn', s.linkedin],
-  ['X', s.x], ['Email', `mailto:${s.email}`],
+  ['Google Scholar', s.scholar], ['LinkedIn', s.linkedin], ['X', s.x],
 ].filter(([, href]) => href);
 ---
 <Base title="Gordon Y. Liao" description={profile.bio_short.slice(0, 155)}>
@@ -25,7 +24,6 @@ const quick = [
     <img src={profile.headshot} alt="Gordon Y. Liao" width="150" />
     <div>
       <h1>Gordon Y. Liao</h1>
-      <p class="role">{profile.role}</p>
       <p class="bio">{profile.bio_short}</p>
       <p class="quick-links">{quick.map(([label, href], i) => <>{i > 0 && ' · '}<a href={href}>{label}</a></>)}</p>
     </div>
