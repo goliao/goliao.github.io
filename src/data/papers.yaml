@@ -5,6 +5,34 @@
 
 # ---------- Working papers ----------
 
+- title: "Financial Innovation and the International Monetary System"
+  authors: [Eswar S. Prasad, Tony Zhang]
+  date: "2026-08"
+  status: working
+  venue: "2026 Jackson Hole Economic Policy Symposium, Federal Reserve Bank of Kansas City"
+  journal_tag: ""
+  links:
+    pdf: "https://www.kansascityfed.org/documents/18555/prasad.pdf"
+    mirror: "/papers/liao_prasad_zhang_jacksonhole_2026.pdf"
+  press:
+    - { outlet: "Axios", url: "https://www.axios.com/2026/08/28/us-dollar-stablecoins-usdc" }
+  topics: [stablecoins, fx]
+  featured: true
+  note: "How stablecoins and tokenization reshape currency competition and dollar dominance."
+
+- title: "Five Facts About Stablecoins"
+  authors: [Lin William Cong, Eswar S. Prasad, Tony Zhang]
+  date: "2026-06"
+  status: working
+  venue: ""
+  journal_tag: ""
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6930198"
+  press: []
+  topics: [stablecoins]
+  featured: true
+  note: "Five facts about payment stablecoins, documented from granular blockchain data, 2020–2025."
+
 - title: "Risk-based Capital for Stable Value Tokens"
   authors: [Dan Fishman, Jeremy Fox-Geen]
   date: "2024-08"
@@ -16,7 +44,7 @@
   press:
     - { outlet: "Bloomberg Money Stuff", url: "https://www.bloomberg.com/opinion/articles/2024-08-15/stablecoins-can-have-bank-runs" }
   topics: [stablecoins]
-  featured: true
+  featured: false
   note: "The Token Capital Adequacy Framework (TCAF) — risk-based capital for stablecoin issuers."
 
 - title: "How do Households Suppress the Price of Tail Risk?"
@@ -118,7 +146,7 @@
     - { outlet: "Central Banking", url: "https://www.centralbanking.com/fintech/crypto-assets/7928291/fed-paper-explores-stablecoins-impact-on-financial-system" }
     - { outlet: "PYMNTS", url: "https://www.pymnts.com/cryptocurrency/2022/fed-paper-finds-stablecoin-risks-are-manageable-and-come-with-rewards/" }
   topics: [stablecoins, banking]
-  featured: true
+  featured: false
   note: ""
 
 - title: "U.S. Dollar Currency Premium in Corporate Bonds"
@@ -181,7 +209,7 @@
     data: "https://www.dropbox.com/s/5led0diefw1q7o0/disasterprobabilities.xlsx?dl=0"
   press: []
   topics: [options]
-  featured: true
+  featured: false
   note: "Disaster probabilities extracted from option prices. Updated U.S. series: /data/spx_disaster_prob_march2021update.csv"
 
 - title: "Credit Migration and Covered Interest Rate Parity"
@@ -194,7 +222,7 @@
     journal: "https://doi.org/10.1016/j.jfineco.2020.06.002"
     pdf: "/papers/CreditCIP_JFE.pdf"
     data: "http://bit.ly/CreditCIPData"
-    slides: "https://www.bis.org/events/bissymposium0517/symposium0517_12_pres.pdf"
+    slides: "/papers/CreditCIP_BIS2017_slides.pdf"
   press:
     - { outlet: "Bloomberg", url: "https://www.bloomberg.com/opinion/articles/2016-10-27/commissions-and-chatbots" }
     - { outlet: "John Cochrane's blog", url: "https://johnhcochrane.blogspot.com/2017/03/covered-interest-parity.html" }
@@ -283,7 +311,7 @@
     mirror: "/papers/arc_litepaper_2025.pdf"
   press: []
   topics: [arc, tokenization, stablecoins]
-  featured: false
+  featured: true
   note: "Litepaper: USDC as native gas, deterministic sub-second settlement finality, and opt-in privacy."
 
 - title: "Securely Embedding Messages in Transaction Records in Blockchain Systems"

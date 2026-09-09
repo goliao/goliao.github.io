@@ -29,13 +29,6 @@ const quick = [
     </div>
   </section>
 
-  <div class="affil-strip"><span class="lead">AFFILIATIONS&ensp;</span>{profile.affiliations.join(' · ')}</div>
-
-  <section>
-    <div class="section-label">Current focus</div>
-    <p style="max-width: 38rem;">{profile.current_focus}</p>
-  </section>
-
   <section>
     <div class="section-label">Selected work</div>
     {featured.map(p => (
@@ -49,6 +42,7 @@ const quick = [
     <p class="see-all"><a href="/research/">All research →</a></p>
   </section>
 
+  {/* Recent strip hidden 2026-09 (stale) — restore by uncommenting.
   <section>
     <div class="section-label">Recent</div>
     <div class="recent-grid">
@@ -57,4 +51,5 @@ const quick = [
       {latestWriting && <div><div class="k">WRITING</div><div class="v"><a href={latestWriting.url}>{latestWriting.title}</a> — {latestWriting.outlet}</div></div>}
     </div>
   </section>
+  */}
 </Base>

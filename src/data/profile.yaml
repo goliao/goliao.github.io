@@ -5,12 +5,12 @@ bio_short: >-
   Gordon Y. Liao is Chief Economist and Head of Research at Circle (NYSE: CRCL),
   the issuer of USDC, where he leads economic research and R&D — from the design
   of Arc, a Layer-1 blockchain purpose-built for stablecoin finance, to capital
-  standards for digital dollars (TCAF) and post-quantum security. He previously
-  shaped monetary-policy analysis at the Federal Reserve Board, led research at
-  Uniswap Labs, and managed fixed-income portfolios at the Harvard endowment.
-  His research appears in the Review of Financial Studies and the Journal of
-  Financial Economics. He holds a Ph.D. in Economics and an A.B. in Applied
-  Mathematics from Harvard.
+  standards for digital dollars and post-quantum security. He previously served
+  as a senior economist at the Federal Reserve Board, led research at Uniswap
+  Labs, and managed fixed-income portfolios at the Harvard endowment. His research
+  appears in the Review of Financial Studies and the Journal of Financial
+  Economics. He holds a Ph.D. in Economics and an A.B. in Applied Mathematics
+  from Harvard.
 
 bio_long: >-
   Gordon Y. Liao serves as Chief Economist and Head of Research at Circle
@@ -24,19 +24,14 @@ bio_long: >-
   portfolios at Harvard Management Company. His academic research on
   exchange rates, credit markets, and stablecoins appears in the Review of
   Financial Studies, the Journal of Financial Economics, and the Journal of
-  Financial Regulation. He is a CEPR Research Affiliate, a Cornell
+  Financial Regulation. He is a Term Member of the Council on Foreign Relations, a Cornell
   FinTech Fellow, co-chair of the NABE Finance Roundtable, and a member of a
   World Economic Forum Global Future Council. His work has been featured in Bloomberg, the Wall
   Street Journal, the Financial Times, and Barron's. He holds a Ph.D. and A.M.
   in Economics and an A.B. in Applied Mathematics from Harvard University.
 
-current_focus: >-
-  Building the economic foundations of digital money: capital adequacy for
-  stablecoins (TCAF), the design of Arc — an economically-secured Layer-1
-  blockchain — and what tokenization means for the dollar system.
-
 affiliations:
-  - "CEPR Research Affiliate"
+  - "Council on Foreign Relations Term Member"
   - "Cornell FinTech Fellow"
   - "NABE Finance Roundtable Co-Chair"
   - "WEF Global Future Council Member"
@@ -44,15 +39,18 @@ affiliations:
 expertise:
   - "Stablecoins & tokenized money"
   - "Monetary policy & the dollar system"
+  - "Agentic economy & payments"
   - "Crypto market structure & DeFi"
   - "Payments & cross-border FX"
   - "Blockchain infrastructure & quantum risk"
 
 speaking_topics:
   - title: "The Stablecoin Standard"
-    blurb: "How payment stablecoins become reserve infrastructure for the digital dollar — from an economist who helped write the capital rules (TCAF)."
+    blurb: "How payment stablecoins become reserve infrastructure for the digital dollar — from an economist who helped write the capital rules for stablecoin issuers."
   - title: "From the Fed to DeFi"
     blurb: "What central banks, DeFi protocols, and public companies each get wrong about the other — lessons from working inside all three."
+  - title: "The Agentic Economy"
+    blurb: "What happens when AI agents can hold and move money — how autonomous transactions drive costs toward zero and redraw the boundaries of firms, payments, and commerce."
   - title: "Quantum Risk Is Crypto's Y2K"
     blurb: "The unaddressed vulnerability in blockchain security and the roadmap for post-quantum digital assets."
 

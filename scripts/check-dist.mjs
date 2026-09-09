@@ -13,6 +13,8 @@ const REQUIRED_ASSETS = [
   'papers/US_Banks_Global_Liquidity.pdf',
   'papers/arc_litepaper_2025.pdf', 'papers/circle_quantum_roadmap.pdf',
   'papers/HouseholdsTailRisk_WP.pdf',
+  'papers/liao_prasad_zhang_jacksonhole_2026.pdf',
+  'papers/CreditCIP_BIS2017_slides.pdf',
   'discussion/AI_and_finance_PIFS_2024_June.pdf',
   'discussion/Discussion_Liao_Decrypting_Crypto_Flow.pdf',
   'discussion/slides_Onchain_AI_Aug2025.pdf',
