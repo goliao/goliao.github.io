@@ -6,6 +6,7 @@ const DIST = fileURLToPath(new URL('../dist', import.meta.url));
 
 const REQUIRED_ASSETS = [
   'GordonLiaoCV.pdf', 'google149ed543bf9df5bc.html', 'CNAME', 'robots.txt',
+  '.well-known/appspecific/com.tesla.3p.public-key.pem',
   'data/spx_disaster_prob_march2021update.csv',
   'papers/CLVProject_WP_v5.pdf', 'papers/CLVProject_WP_v8.pdf',
   'papers/CreditCIP_JFE.pdf', 'papers/HedgingChannelofExchangeRate_Latest.pdf',
